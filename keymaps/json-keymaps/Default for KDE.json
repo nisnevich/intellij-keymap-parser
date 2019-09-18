@@ -1,0 +1,336 @@
+{
+  "name": "Default for KDE",
+  "actions": [
+    {
+      "id": "ChangeSignature",
+      "description": "Change Signature...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control 6"
+        }
+      ]
+    },
+    {
+      "id": "CloseActiveTab",
+      "description": "Close Active Tab",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control 4"
+        }
+      ]
+    },
+    {
+      "id": "CloseContent",
+      "description": "Close",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control 4"
+        }
+      ]
+    },
+    {
+      "id": "CompileDirty",
+      "description": "Build Project",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control 9"
+        }
+      ]
+    },
+    {
+      "id": "EvaluateExpression",
+      "description": "Evaluate Expression...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt 8"
+        }
+      ]
+    },
+    {
+      "id": "FileStructurePopup",
+      "description": "File Structure",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control 0"
+        }
+      ]
+    },
+    {
+      "id": "Find",
+      "description": "Find...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control F"
+        },
+        {
+          "firstKeystroke": "shift alt 3"
+        }
+      ]
+    },
+    {
+      "id": "FindUsages",
+      "description": "Find Usages",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt 7"
+        }
+      ]
+    },
+    {
+      "id": "FindUsagesInFile",
+      "description": "Find Usages in File",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control 7"
+        }
+      ]
+    },
+    {
+      "id": "FindWordAtCaret",
+      "description": "Find Word at Caret",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control 3"
+        }
+      ]
+    },
+    {
+      "id": "GotoBookmark0",
+      "description": "Go to Bookmark 0",
+      "shortcuts": []
+    },
+    {
+      "id": "GotoBookmark1",
+      "description": "Go to Bookmark 1",
+      "shortcuts": []
+    },
+    {
+      "id": "GotoBookmark2",
+      "description": "Go to Bookmark 2",
+      "shortcuts": []
+    },
+    {
+      "id": "GotoBookmark3",
+      "description": "Go to Bookmark 3",
+      "shortcuts": []
+    },
+    {
+      "id": "GotoBookmark4",
+      "description": "Go to Bookmark 4",
+      "shortcuts": []
+    },
+    {
+      "id": "GotoBookmark5",
+      "description": "Go to Bookmark 5",
+      "shortcuts": []
+    },
+    {
+      "id": "GotoBookmark6",
+      "description": "Go to Bookmark 6",
+      "shortcuts": []
+    },
+    {
+      "id": "GotoBookmark7",
+      "description": "Go to Bookmark 7",
+      "shortcuts": []
+    },
+    {
+      "id": "GotoBookmark8",
+      "description": "Go to Bookmark 8",
+      "shortcuts": []
+    },
+    {
+      "id": "GotoBookmark9",
+      "description": "Go to Bookmark 9",
+      "shortcuts": []
+    },
+    {
+      "id": "ToggleBookmark0",
+      "description": "Toggle Bookmark 0",
+      "shortcuts": []
+    },
+    {
+      "id": "ToggleBookmark1",
+      "description": "Toggle Bookmark 1",
+      "shortcuts": []
+    },
+    {
+      "id": "ToggleBookmark2",
+      "description": "Toggle Bookmark 2",
+      "shortcuts": []
+    },
+    {
+      "id": "ToggleBookmark3",
+      "description": "Toggle Bookmark 3",
+      "shortcuts": []
+    },
+    {
+      "id": "ToggleBookmark4",
+      "description": "Toggle Bookmark 4",
+      "shortcuts": []
+    },
+    {
+      "id": "ToggleBookmark5",
+      "description": "Toggle Bookmark 5",
+      "shortcuts": []
+    },
+    {
+      "id": "ToggleBookmark6",
+      "description": "Toggle Bookmark 6",
+      "shortcuts": []
+    },
+    {
+      "id": "ToggleBookmark7",
+      "description": "Toggle Bookmark 7",
+      "shortcuts": []
+    },
+    {
+      "id": "ToggleBookmark8",
+      "description": "Toggle Bookmark 8",
+      "shortcuts": []
+    },
+    {
+      "id": "ToggleBookmark9",
+      "description": "Toggle Bookmark 9",
+      "shortcuts": []
+    },
+    {
+      "id": "HighlightUsagesInFile",
+      "description": "Highlight Usages in File",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control 7"
+        }
+      ]
+    },
+    {
+      "id": "IntroduceVariable",
+      "description": "Introduce Variable...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt V"
+        }
+      ]
+    },
+    {
+      "id": "ProjectViewChangeView",
+      "description": "Change View...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt 1"
+        }
+      ]
+    },
+    {
+      "id": "ReformatCode",
+      "description": "Reformat Code",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt L"
+        }
+      ]
+    },
+    {
+      "id": "Refresh",
+      "description": "Refresh",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control 5"
+        }
+      ],
+      "actionGroup": "Refresh"
+    },
+    {
+      "id": "ForceRefresh",
+      "description": "Force Refresh",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control shift 5"
+        }
+      ],
+      "actionGroup": "Force Refresh"
+    },
+    {
+      "id": "Rerun",
+      "description": "Rerun",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control 5"
+        }
+      ],
+      "actionGroup": "Rerun"
+    },
+    {
+      "id": "RestoreDefaultLayout",
+      "description": "Restore Default Layout",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt F12"
+        }
+      ]
+    },
+    {
+      "id": "RunToCursor",
+      "description": "Run to Cursor",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt 9"
+        }
+      ]
+    },
+    {
+      "id": "SelectIn",
+      "description": "Select In...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt 1"
+        }
+      ]
+    },
+    {
+      "id": "ShowErrorDescription",
+      "description": "Error Description",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control 1"
+        }
+      ]
+    },
+    {
+      "id": "ShowExecutionPoint",
+      "description": "Show Execution Point",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt 0"
+        }
+      ]
+    },
+    {
+      "id": "Stop",
+      "description": "Stop",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control 2"
+        }
+      ]
+    },
+    {
+      "id": "ToggleLineBreakpoint",
+      "description": "Toggle Line Breakpoint",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control 8"
+        }
+      ]
+    },
+    {
+      "id": "ViewBreakpoints",
+      "description": "View Breakpoints...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control 8"
+        }
+      ]
+    }
+  ]
+}

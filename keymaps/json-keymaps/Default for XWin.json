@@ -1,0 +1,68 @@
+{
+  "name": "Default for XWin",
+  "actions": [
+    {
+      "id": "ForceRunToCursor",
+      "description": "Force Run to Cursor",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control alt 9"
+        }
+      ]
+    },
+    {
+      "id": "QuickEvaluateExpression",
+      "description": "Quick Evaluate Expression",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control alt 8"
+        }
+      ]
+    },
+    {
+      "id": "ShowUsages",
+      "description": "Show Usages",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control alt 7"
+        }
+      ]
+    },
+    {
+      "id": "ShowSettingsAndFindUsages",
+      "description": "Find Usages Settings...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control shift alt 7"
+        }
+      ]
+    },
+    {
+      "id": "SwitchCoverage",
+      "description": "Show Code Coverage Data",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control alt 6"
+        }
+      ]
+    },
+    {
+      "id": "Images.EditExternally",
+      "description": "Jump to External Editor",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control alt 4"
+        }
+      ]
+    },
+    {
+      "id": "ShowFilePath",
+      "description": "File Path",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control alt shift 2"
+        }
+      ]
+    }
+  ]
+}

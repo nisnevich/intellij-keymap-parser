@@ -1,0 +1,603 @@
+{
+  "name": "Visual Studio",
+  "actions": [
+    {
+      "id": "StepOut",
+      "description": "Step Out",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift F11"
+        },
+        {
+          "firstKeystroke": "shift control F8"
+        }
+      ]
+    },
+    {
+      "id": "Resume",
+      "description": "Resume Program",
+      "shortcuts": [
+        {
+          "firstKeystroke": "F5"
+        }
+      ]
+    },
+    {
+      "id": "QuickEvaluateExpression",
+      "description": "Quick Evaluate Expression",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift F9"
+        }
+      ]
+    },
+    {
+      "id": "EditorDeleteLine",
+      "description": "Delete Line",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control L"
+        }
+      ]
+    },
+    {
+      "id": "ShowErrorDescription",
+      "description": "Error Description",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control F1"
+        },
+        {
+          "firstKeystroke": "alt T"
+        }
+      ]
+    },
+    {
+      "id": "FindUsages",
+      "description": "Find Usages",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt F7"
+        }
+      ]
+    },
+    {
+      "id": "StepInto",
+      "description": "Step Into",
+      "shortcuts": [
+        {
+          "firstKeystroke": "F11"
+        },
+        {
+          "firstKeystroke": "F8"
+        }
+      ]
+    },
+    {
+      "id": "ForceStepInto",
+      "description": "Force Step Into",
+      "shortcuts": [
+        {
+          "firstKeystroke": "alt F11"
+        },
+        {
+          "firstKeystroke": "alt F8"
+        }
+      ]
+    },
+    {
+      "id": "Cut",
+      "description": "Cut",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control X"
+        },
+        {
+          "firstKeystroke": "shift DELETE"
+        }
+      ]
+    },
+    {
+      "id": "Compile",
+      "description": "Rebuild",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control F7"
+        }
+      ]
+    },
+    {
+      "id": "ReformatCode",
+      "description": "Reformat Code",
+      "shortcuts": [
+        {
+          "firstKeystroke": "alt F8"
+        },
+        {
+          "firstKeystroke": "control alt F"
+        }
+      ]
+    },
+    {
+      "id": "Generate",
+      "description": "Generate...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control N"
+        },
+        {
+          "firstKeystroke": "alt INSERT"
+        }
+      ]
+    },
+    {
+      "id": "ShowExecutionPoint",
+      "description": "Show Execution Point",
+      "shortcuts": [
+        {
+          "firstKeystroke": "alt MULTIPLY"
+        },
+        {
+          "firstKeystroke": "control L"
+        }
+      ]
+    },
+    {
+      "id": "Paste",
+      "description": "Paste",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control V"
+        },
+        {
+          "firstKeystroke": "shift INSERT"
+        }
+      ]
+    },
+    {
+      "id": "CommentByBlockComment",
+      "description": "Comment with Block Comment",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control SLASH"
+        },
+        {
+          "firstKeystroke": "shift control DIVIDE"
+        },
+        {
+          "firstKeystroke": "shift control COLON"
+        }
+      ]
+    },
+    {
+      "id": "JumpToLastWindow",
+      "description": "Jump to Last Tool Window",
+      "shortcuts": []
+    },
+    {
+      "id": "StepOver",
+      "description": "Step Over",
+      "shortcuts": [
+        {
+          "firstKeystroke": "F10"
+        },
+        {
+          "firstKeystroke": "shift F8"
+        }
+      ]
+    },
+    {
+      "id": "GotoTypeDeclaration",
+      "description": "Type Declaration",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt F12"
+        },
+        {
+          "firstKeystroke": "shift alt F2"
+        }
+      ]
+    },
+    {
+      "id": "Copy",
+      "description": "Copy",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control C"
+        },
+        {
+          "firstKeystroke": "control INSERT"
+        }
+      ],
+      "actionGroup": "Copy Quick Doc"
+    },
+    {
+      "id": "GotoClass",
+      "description": "Class...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control COMMA"
+        }
+      ]
+    },
+    {
+      "id": "GotoChangedFile",
+      "description": "Go To Changed File...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control COMMA"
+        }
+      ]
+    },
+    {
+      "id": "ParameterInfo",
+      "description": "Parameter Info",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control SPACE"
+        }
+      ]
+    },
+    {
+      "id": "ExpressionTypeInfo",
+      "description": "Type Info",
+      "shortcuts": []
+    },
+    {
+      "id": "FindNext",
+      "description": "Find Next / Move to Next Occurrence",
+      "shortcuts": [
+        {
+          "firstKeystroke": "F3"
+        }
+      ]
+    },
+    {
+      "id": "Print",
+      "description": "Print...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control P"
+        }
+      ]
+    },
+    {
+      "id": "ImplementMethods",
+      "description": "Implement Methods...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control I"
+        }
+      ]
+    },
+    {
+      "id": "SmartTypeCompletion",
+      "description": "SmartType",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt SPACE"
+        }
+      ]
+    },
+    {
+      "id": "GotoDeclaration",
+      "description": "Declaration or Usages",
+      "shortcuts": [
+        {
+          "firstKeystroke": "F12"
+        },
+        {
+          "firstKeystroke": "shift F2"
+        },
+        {
+          "firstKeystroke": "control B"
+        }
+      ]
+    },
+    {
+      "id": "NewElement",
+      "description": "New...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "alt INSERT"
+        }
+      ]
+    },
+    {
+      "id": "FindPrevious",
+      "description": "Find Previous / Move to Previous Occurrence",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift F3"
+        }
+      ]
+    },
+    {
+      "id": "FindUsagesInFile",
+      "description": "Find Usages in File",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control F7"
+        },
+        {
+          "firstKeystroke": "shift F12"
+        }
+      ]
+    },
+    {
+      "id": "CompileDirty",
+      "description": "Build Project",
+      "shortcuts": [
+        {
+          "firstKeystroke": "F7"
+        }
+      ]
+    },
+    {
+      "id": "GotoLine",
+      "description": "Line/Column...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control G"
+        }
+      ]
+    },
+    {
+      "id": "JumpToLastChange",
+      "description": "Last Edit Location",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control F2"
+        }
+      ]
+    },
+    {
+      "id": "EditorCodeBlockEnd",
+      "description": "Move Caret to Code Block End",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control CLOSE_BRACKET"
+        },
+        {
+          "firstKeystroke": "control ASTERISK"
+        }
+      ]
+    },
+    {
+      "id": "OverrideMethods",
+      "description": "Override Methods...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control O"
+        }
+      ]
+    },
+    {
+      "id": "ToggleLineBreakpoint",
+      "description": "Toggle Line Breakpoint",
+      "shortcuts": [
+        {
+          "firstKeystroke": "F9"
+        }
+      ]
+    },
+    {
+      "id": "ToggleBookmark",
+      "description": "Toggle Bookmark",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control F2"
+        }
+      ]
+    },
+    {
+      "id": "Pause",
+      "description": "Pause Program",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control PAUSE"
+        },
+        {
+          "firstKeystroke": "shift control P"
+        }
+      ]
+    },
+    {
+      "id": "Stop",
+      "description": "Stop",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift F5"
+        }
+      ]
+    },
+    {
+      "id": "StopBackgroundProcesses",
+      "description": "Stop Background Processes...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control F5"
+        }
+      ]
+    },
+    {
+      "id": "CommentByLineComment",
+      "description": "Comment with Line Comment",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control SLASH"
+        },
+        {
+          "firstKeystroke": "control DIVIDE"
+        },
+        {
+          "firstKeystroke": "control COLON"
+        }
+      ]
+    },
+    {
+      "id": "RunToCursor",
+      "description": "Run to Cursor",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control F10"
+        },
+        {
+          "firstKeystroke": "control F8"
+        }
+      ]
+    },
+    {
+      "id": "QuickJavaDoc",
+      "description": "Quick Documentation",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control Q"
+        }
+      ]
+    },
+    {
+      "id": "ShowBookmarks",
+      "description": "Show Bookmarks",
+      "shortcuts": [
+        {
+          "firstKeystroke": "alt F2"
+        }
+      ]
+    },
+    {
+      "id": "ViewBreakpoints",
+      "description": "View Breakpoints...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "alt F9"
+        }
+      ]
+    },
+    {
+      "id": "EditBreakpoint",
+      "description": "Edit breakpoint",
+      "shortcuts": [
+        {
+          "firstKeystroke": "alt F9"
+        }
+      ]
+    },
+    {
+      "id": "TypeHierarchy",
+      "description": "Type Hierarchy",
+      "shortcuts": [
+        {
+          "firstKeystroke": "alt H"
+        }
+      ],
+      "actionGroup": "Base on This Type"
+    },
+    {
+      "id": "EditorCodeBlockStart",
+      "description": "Move Caret to Code Block Start",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control OPEN_BRACKET"
+        }
+      ]
+    },
+    {
+      "id": "Replace",
+      "description": "Replace...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control H"
+        }
+      ]
+    },
+    {
+      "id": "OpenFile",
+      "description": "Open...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control O"
+        }
+      ]
+    },
+    {
+      "id": "Refresh",
+      "description": "Refresh",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control alt R"
+        }
+      ],
+      "actionGroup": "Refresh"
+    },
+    {
+      "id": "ForceRefresh",
+      "description": "Force Refresh",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control alt shift R"
+        }
+      ],
+      "actionGroup": "Force Refresh"
+    },
+    {
+      "id": "ExternalJavaDoc",
+      "description": "External Documentation",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift F1"
+        },
+        {
+          "firstKeystroke": "control F1"
+        }
+      ]
+    },
+    {
+      "id": "VcsShowNextChangeMarker",
+      "description": "Next Change",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control alt DOWN"
+        }
+      ]
+    },
+    {
+      "id": "VcsShowPrevChangeMarker",
+      "description": "Previous Change",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control alt UP"
+        }
+      ]
+    },
+    {
+      "id": "GotoNextElementUnderCaretUsage",
+      "description": "Go to next highlighted element usage",
+      "shortcuts": [
+        {
+          "firstKeystroke": "alt shift D"
+        }
+      ]
+    },
+    {
+      "id": "GotoPrevElementUnderCaretUsage",
+      "description": "Go to previous highlighted element usage",
+      "shortcuts": [
+        {
+          "firstKeystroke": "alt shift U"
+        }
+      ]
+    },
+    {
+      "id": "CopyElement",
+      "description": "Copy...",
+      "shortcuts": []
+    },
+    {
+      "id": "Rerun",
+      "description": "Rerun",
+      "shortcuts": [],
+      "actionGroup": "Rerun"
+    }
+  ]
+}

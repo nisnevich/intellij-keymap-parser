@@ -1,0 +1,514 @@
+{
+  "name": "ReSharper OSX",
+  "actions": [
+    {
+      "id": "ClassNameCompletion",
+      "description": "Second Basic Completion",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt SPACE"
+        }
+      ]
+    },
+    {
+      "id": "CommentByBlockComment",
+      "description": "Comment with Block Comment",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control SLASH"
+        }
+      ]
+    },
+    {
+      "id": "CommentByLineComment",
+      "description": "Comment with Line Comment",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control alt SLASH"
+        }
+      ]
+    },
+    {
+      "id": "Console.History.Browse",
+      "description": "Browse Console History",
+      "shortcuts": []
+    },
+    {
+      "id": "ExportTestResults",
+      "description": "Export Test Results...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control alt U"
+        }
+      ]
+    },
+    {
+      "id": "ExtractClass",
+      "description": "Extract Delegate...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control alt E",
+          "secondKeystroke": "C"
+        }
+      ]
+    },
+    {
+      "id": "ExtractInclude",
+      "description": "Include File...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control alt E",
+          "secondKeystroke": "I"
+        }
+      ]
+    },
+    {
+      "id": "ExtractInterface",
+      "description": "Extract Interface...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control alt E",
+          "secondKeystroke": "F"
+        }
+      ]
+    },
+    {
+      "id": "ExtractMethod",
+      "description": "Extract Method...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control R",
+          "secondKeystroke": "M"
+        }
+      ]
+    },
+    {
+      "id": "ExtractModule",
+      "description": "Extract Module...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control alt E",
+          "secondKeystroke": "M"
+        }
+      ]
+    },
+    {
+      "id": "ExtractSuperclass",
+      "description": "Extract Superclass...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control alt E",
+          "secondKeystroke": "S"
+        }
+      ]
+    },
+    {
+      "id": "FileStructurePopup",
+      "description": "File Structure",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control alt F"
+        }
+      ]
+    },
+    {
+      "id": "FindUsages",
+      "description": "Find Usages",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift F12"
+        }
+      ]
+    },
+    {
+      "id": "FindUsagesInFile",
+      "description": "Find Usages in File",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt F11"
+        }
+      ]
+    },
+    {
+      "id": "Generate",
+      "description": "Generate...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "meta alt ENTER"
+        }
+      ]
+    },
+    {
+      "id": "GotoClass",
+      "description": "Class...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control T"
+        }
+      ]
+    },
+    {
+      "id": "GotoChangedFile",
+      "description": "Go To Changed File...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control T"
+        }
+      ]
+    },
+    {
+      "id": "GotoDeclaration",
+      "description": "Declaration or Usages",
+      "shortcuts": [
+        {
+          "firstKeystroke": "F12"
+        }
+      ]
+    },
+    {
+      "id": "GotoFile",
+      "description": "File...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control T"
+        }
+      ]
+    },
+    {
+      "id": "GotoImplementation",
+      "description": "Implementation(s)",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control F12"
+        }
+      ]
+    },
+    {
+      "id": "GotoLine",
+      "description": "Line/Column...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "alt BACK_SLASH"
+        }
+      ]
+    },
+    {
+      "id": "GotoNextError",
+      "description": "Next Highlighted Error",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt PAGE_DOWN"
+        }
+      ]
+    },
+    {
+      "id": "GotoPreviousError",
+      "description": "Previous Highlighted Error",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt PAGE_UP"
+        }
+      ]
+    },
+    {
+      "id": "GotoRelated",
+      "description": "Related Symbol...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control alt F7"
+        }
+      ]
+    },
+    {
+      "id": "GotoSymbol",
+      "description": "Symbol...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt T"
+        }
+      ]
+    },
+    {
+      "id": "GotoTest",
+      "description": "Test",
+      "shortcuts": []
+    },
+    {
+      "id": "GotoTypeDeclaration",
+      "description": "Type Declaration",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control F11"
+        }
+      ]
+    },
+    {
+      "id": "Images.ShowThumbnails",
+      "description": "Show Image Thumbnails",
+      "shortcuts": []
+    },
+    {
+      "id": "Inline",
+      "description": "Inline...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control R",
+          "secondKeystroke": "S"
+        }
+      ]
+    },
+    {
+      "id": "InsertLiveTemplate",
+      "description": "Insert Live Template...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control E",
+          "secondKeystroke": "L"
+        }
+      ]
+    },
+    {
+      "id": "InspectCode",
+      "description": "Inspect Code...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control alt A"
+        }
+      ]
+    },
+    {
+      "id": "IntroduceField",
+      "description": "Introduce Field...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control E",
+          "secondKeystroke": "F"
+        }
+      ]
+    },
+    {
+      "id": "IntroduceParameter",
+      "description": "Introduce Parameter...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control E",
+          "secondKeystroke": "P"
+        }
+      ]
+    },
+    {
+      "id": "IntroduceVariable",
+      "description": "Introduce Variable...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control E",
+          "secondKeystroke": "V"
+        }
+      ]
+    },
+    {
+      "id": "JumpToLastChange",
+      "description": "Last Edit Location",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control BACK_SPACE"
+        }
+      ]
+    },
+    {
+      "id": "Move",
+      "description": "Move...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control R",
+          "secondKeystroke": "O"
+        }
+      ]
+    },
+    {
+      "id": "NewElement",
+      "description": "New...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "alt INSERT"
+        },
+        {
+          "firstKeystroke": "control meta alt ENTER"
+        }
+      ]
+    },
+    {
+      "id": "QuickChangeScheme",
+      "description": "Quick Switch Scheme...",
+      "shortcuts": []
+    },
+    {
+      "id": "QuickJavaDoc",
+      "description": "Quick Documentation",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control F1"
+        }
+      ]
+    },
+    {
+      "id": "RecentChangedFiles",
+      "description": "Recently Changed Files",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control COMMA"
+        }
+      ]
+    },
+    {
+      "id": "RecentFiles",
+      "description": "Recent Files",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control COMMA"
+        }
+      ]
+    },
+    {
+      "id": "ReformatCode",
+      "description": "Reformat Code",
+      "shortcuts": [
+        {
+          "firstKeystroke": "alt F8"
+        }
+      ]
+    },
+    {
+      "id": "RenameElement",
+      "description": "Rename...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control R",
+          "secondKeystroke": "R"
+        }
+      ]
+    },
+    {
+      "id": "ReplaceInPath",
+      "description": "Replace in Path...",
+      "shortcuts": []
+    },
+    {
+      "id": "RestoreDefaultLayout",
+      "description": "Restore Default Layout",
+      "shortcuts": []
+    },
+    {
+      "id": "SafeDelete",
+      "description": "Safe Delete...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control R",
+          "secondKeystroke": "D"
+        },
+        {
+          "firstKeystroke": "alt BACK_SPACE",
+          "secondKeystroke": "D"
+        }
+      ]
+    },
+    {
+      "id": "ShowBookmarks",
+      "description": "Show Bookmarks",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control BACK_QUOTE"
+        }
+      ]
+    },
+    {
+      "id": "ShowUsages",
+      "description": "Show Usages",
+      "shortcuts": []
+    },
+    {
+      "id": "SmartTypeCompletion",
+      "description": "SmartType",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control alt SPACE"
+        }
+      ]
+    },
+    {
+      "id": "SurroundWithLiveTemplate",
+      "description": "Surround with Live Template...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control E",
+          "secondKeystroke": "U"
+        }
+      ]
+    },
+    {
+      "id": "TypeHierarchy",
+      "description": "Type Hierarchy",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control E",
+          "secondKeystroke": "H"
+        }
+      ],
+      "actionGroup": "Base on This Type"
+    },
+    {
+      "id": "Unscramble",
+      "description": "Analyze Stack Trace...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control E",
+          "secondKeystroke": "T"
+        }
+      ]
+    },
+    {
+      "id": "Vcs.ShowMessageHistory",
+      "description": "Commit Message History",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control M"
+        }
+      ]
+    },
+    {
+      "id": "Vcs.UpdateProject",
+      "description": "Update Project",
+      "shortcuts": []
+    },
+    {
+      "id": "ChangesView.Rename",
+      "description": "Edit Changelist...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control R",
+          "secondKeystroke": "R"
+        }
+      ]
+    },
+    {
+      "id": "ShelvedChanges.Rename",
+      "description": "Rename...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control R",
+          "secondKeystroke": "R"
+        }
+      ]
+    },
+    {
+      "id": "RunDashboard.ShowConfigurations",
+      "description": "Show Services Tree",
+      "shortcuts": [
+        {
+          "firstKeystroke": "alt meta H"
+        }
+      ],
+      "actionGroup": "Show Services Tree"
+    }
+  ]
+}

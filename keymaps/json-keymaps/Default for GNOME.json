@@ -1,0 +1,123 @@
+{
+  "name": "Default for GNOME",
+  "actions": [
+    {
+      "id": "Back",
+      "description": "Back",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt LEFT"
+        }
+      ]
+    },
+    {
+      "id": "EvaluateExpression",
+      "description": "Evaluate Expression...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt 8"
+        }
+      ]
+    },
+    {
+      "id": "Find",
+      "description": "Find...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control F"
+        },
+        {
+          "firstKeystroke": "shift alt 3"
+        }
+      ]
+    },
+    {
+      "id": "FindUsages",
+      "description": "Find Usages",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt 7"
+        }
+      ]
+    },
+    {
+      "id": "Forward",
+      "description": "Forward",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt RIGHT"
+        }
+      ]
+    },
+    {
+      "id": "NextOccurence",
+      "description": "Next Occurrence",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt DOWN"
+        }
+      ]
+    },
+    {
+      "id": "PreviousOccurence",
+      "description": "Previous Occurrence",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt UP"
+        }
+      ]
+    },
+    {
+      "id": "ProjectViewChangeView",
+      "description": "Change View...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt 1"
+        },
+        {
+          "firstKeystroke": "alt F1"
+        }
+      ]
+    },
+    {
+      "id": "RunToCursor",
+      "description": "Run to Cursor",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt 9"
+        }
+      ]
+    },
+    {
+      "id": "SelectIn",
+      "description": "Select In...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt 1"
+        },
+        {
+          "firstKeystroke": "alt F1"
+        }
+      ]
+    },
+    {
+      "id": "ShowExecutionPoint",
+      "description": "Show Execution Point",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt 0"
+        }
+      ]
+    },
+    {
+      "id": "MoveLineDown",
+      "description": "Move Line Down",
+      "shortcuts": []
+    },
+    {
+      "id": "MoveLineUp",
+      "description": "Move Line Up",
+      "shortcuts": []
+    }
+  ]
+}

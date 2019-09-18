@@ -1,0 +1,1145 @@
+{
+  "name": "NetBeans 6.5",
+  "actions": [
+    {
+      "id": "AddToFavoritesPopup",
+      "description": "Add to Favorites",
+      "shortcuts": []
+    },
+    {
+      "id": "Back",
+      "description": "Back",
+      "shortcuts": [
+        {
+          "firstKeystroke": "alt LEFT"
+        }
+      ]
+    },
+    {
+      "id": "CheckinProject",
+      "description": "Commit...",
+      "shortcuts": []
+    },
+    {
+      "id": "ClassNameCompletion",
+      "description": "Second Basic Completion",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control alt SPACE"
+        },
+        {
+          "firstKeystroke": "control alt BACK_SLASH"
+        }
+      ]
+    },
+    {
+      "id": "CloseActiveTab",
+      "description": "Close Active Tab",
+      "shortcuts": []
+    },
+    {
+      "id": "CloseAllEditors",
+      "description": "Close All",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control W"
+        },
+        {
+          "firstKeystroke": "shift control F4"
+        }
+      ]
+    },
+    {
+      "id": "CloseContent",
+      "description": "Close",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control F4"
+        },
+        {
+          "firstKeystroke": "control W"
+        }
+      ]
+    },
+    {
+      "id": "EditorChooseLookupItemDot",
+      "description": "Choose Lookup Item and Insert Dot",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control PERIOD"
+        }
+      ]
+    },
+    {
+      "id": "CodeCompletion",
+      "description": "Basic",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control SPACE"
+        },
+        {
+          "firstKeystroke": "control BACK_SLASH"
+        }
+      ]
+    },
+    {
+      "id": "CollapseBlock",
+      "description": "Fold Code Block",
+      "shortcuts": []
+    },
+    {
+      "id": "CollapseSelection",
+      "description": "Fold Selection / Remove region",
+      "shortcuts": []
+    },
+    {
+      "id": "CommentByLineComment",
+      "description": "Comment with Line Comment",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control SLASH"
+        },
+        {
+          "firstKeystroke": "shift control C"
+        }
+      ]
+    },
+    {
+      "id": "CollapseRegionRecursively",
+      "description": "Collapse Recursively",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control DIVIDE"
+        }
+      ]
+    },
+    {
+      "id": "Compile",
+      "description": "Rebuild",
+      "shortcuts": [
+        {
+          "firstKeystroke": "F9"
+        }
+      ]
+    },
+    {
+      "id": "CompileDirty",
+      "description": "Build Project",
+      "shortcuts": [
+        {
+          "firstKeystroke": "F11"
+        }
+      ]
+    },
+    {
+      "id": "CompileProject",
+      "description": "Rebuild Project",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift F11"
+        }
+      ]
+    },
+    {
+      "id": "CopyElement",
+      "description": "Copy...",
+      "shortcuts": []
+    },
+    {
+      "id": "CopyPaths",
+      "description": "Copy Paths",
+      "shortcuts": []
+    },
+    {
+      "id": "XDebugger.NewWatch",
+      "description": "New Watch...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control F7"
+        }
+      ]
+    },
+    {
+      "id": "Debugger.ResumeThread",
+      "description": "Resume",
+      "shortcuts": [
+        {
+          "firstKeystroke": "F5"
+        }
+      ]
+    },
+    {
+      "id": "EditorCompleteStatement",
+      "description": "Complete Current Statement",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control ENTER"
+        },
+        {
+          "firstKeystroke": "control SEMICOLON"
+        }
+      ]
+    },
+    {
+      "id": "EditorDeleteLine",
+      "description": "Delete Line",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control E"
+        }
+      ]
+    },
+    {
+      "id": "EditorDuplicate",
+      "description": "Duplicate Line or Selection",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control D"
+        },
+        {
+          "firstKeystroke": "shift control DOWN"
+        },
+        {
+          "firstKeystroke": "shift control UP"
+        }
+      ]
+    },
+    {
+      "id": "EditorIndentSelection",
+      "description": "Indent Selection",
+      "shortcuts": [
+        {
+          "firstKeystroke": "TAB"
+        }
+      ]
+    },
+    {
+      "id": "EditorIndentLineOrSelection",
+      "description": "Indent Line or Selection",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt RIGHT"
+        }
+      ]
+    },
+    {
+      "id": "EditorMoveToPageBottom",
+      "description": "Move Caret to Page Bottom",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt END"
+        }
+      ]
+    },
+    {
+      "id": "EditorMoveToPageTop",
+      "description": "Move Caret to Page Top",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt HOME"
+        }
+      ]
+    },
+    {
+      "id": "EditorScrollToCenter",
+      "description": "Scroll to Center",
+      "shortcuts": [],
+      "actionGroup": "Scroll to Center"
+    },
+    {
+      "id": "EditorSelectWord",
+      "description": "Extend Selection",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt PERIOD"
+        }
+      ]
+    },
+    {
+      "id": "EditorToggleCase",
+      "description": "Toggle Case",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control U",
+          "secondKeystroke": "S"
+        }
+      ]
+    },
+    {
+      "id": "EditorUnSelectWord",
+      "description": "Shrink Selection",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt COMMA"
+        }
+      ]
+    },
+    {
+      "id": "EditorUnindentSelection",
+      "description": "Unindent Line or Selection",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt LEFT"
+        },
+        {
+          "firstKeystroke": "shift TAB"
+        }
+      ]
+    },
+    {
+      "id": "EvaluateExpression",
+      "description": "Evaluate Expression...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control F9"
+        }
+      ]
+    },
+    {
+      "id": "ExpandAllToLevel1",
+      "description": "1",
+      "shortcuts": []
+    },
+    {
+      "id": "ExpandAllToLevel2",
+      "description": "2",
+      "shortcuts": []
+    },
+    {
+      "id": "ExpandAllToLevel3",
+      "description": "3",
+      "shortcuts": []
+    },
+    {
+      "id": "ExpandAllToLevel4",
+      "description": "4",
+      "shortcuts": []
+    },
+    {
+      "id": "ExpandAllToLevel5",
+      "description": "5",
+      "shortcuts": []
+    },
+    {
+      "id": "ExpandRegionRecursively",
+      "description": "Expand Recursively",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control MULTIPLY"
+        }
+      ]
+    },
+    {
+      "id": "ExpandToLevel1",
+      "description": "1",
+      "shortcuts": []
+    },
+    {
+      "id": "ExpandToLevel2",
+      "description": "2",
+      "shortcuts": []
+    },
+    {
+      "id": "ExpandToLevel3",
+      "description": "3",
+      "shortcuts": []
+    },
+    {
+      "id": "ExpandToLevel4",
+      "description": "4",
+      "shortcuts": []
+    },
+    {
+      "id": "ExpandToLevel5",
+      "description": "5",
+      "shortcuts": []
+    },
+    {
+      "id": "ExtractMethod",
+      "description": "Extract Method...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt M"
+        }
+      ]
+    },
+    {
+      "id": "FileChooser.GotoHome",
+      "description": "Home Directory",
+      "shortcuts": []
+    },
+    {
+      "id": "FileStructurePopup",
+      "description": "File Structure",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control F12"
+        },
+        {
+          "firstKeystroke": "shift control F12"
+        }
+      ]
+    },
+    {
+      "id": "FindUsagesInFile",
+      "description": "Find Usages in File",
+      "shortcuts": []
+    },
+    {
+      "id": "Forward",
+      "description": "Forward",
+      "shortcuts": [
+        {
+          "firstKeystroke": "alt RIGHT"
+        }
+      ]
+    },
+    {
+      "id": "GotoAction",
+      "description": "Find Action...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control I"
+        }
+      ]
+    },
+    {
+      "id": "GotoBookmark0",
+      "description": "Go to Bookmark 0",
+      "shortcuts": []
+    },
+    {
+      "id": "GotoBookmark1",
+      "description": "Go to Bookmark 1",
+      "shortcuts": []
+    },
+    {
+      "id": "GotoBookmark2",
+      "description": "Go to Bookmark 2",
+      "shortcuts": []
+    },
+    {
+      "id": "GotoBookmark3",
+      "description": "Go to Bookmark 3",
+      "shortcuts": []
+    },
+    {
+      "id": "GotoBookmark4",
+      "description": "Go to Bookmark 4",
+      "shortcuts": []
+    },
+    {
+      "id": "GotoBookmark5",
+      "description": "Go to Bookmark 5",
+      "shortcuts": []
+    },
+    {
+      "id": "GotoBookmark6",
+      "description": "Go to Bookmark 6",
+      "shortcuts": []
+    },
+    {
+      "id": "GotoBookmark7",
+      "description": "Go to Bookmark 7",
+      "shortcuts": []
+    },
+    {
+      "id": "GotoBookmark8",
+      "description": "Go to Bookmark 8",
+      "shortcuts": []
+    },
+    {
+      "id": "GotoBookmark9",
+      "description": "Go to Bookmark 9",
+      "shortcuts": []
+    },
+    {
+      "id": "ToggleBookmark0",
+      "description": "Toggle Bookmark 0",
+      "shortcuts": []
+    },
+    {
+      "id": "ToggleBookmark1",
+      "description": "Toggle Bookmark 1",
+      "shortcuts": []
+    },
+    {
+      "id": "ToggleBookmark2",
+      "description": "Toggle Bookmark 2",
+      "shortcuts": []
+    },
+    {
+      "id": "ToggleBookmark3",
+      "description": "Toggle Bookmark 3",
+      "shortcuts": []
+    },
+    {
+      "id": "ToggleBookmark4",
+      "description": "Toggle Bookmark 4",
+      "shortcuts": []
+    },
+    {
+      "id": "ToggleBookmark5",
+      "description": "Toggle Bookmark 5",
+      "shortcuts": []
+    },
+    {
+      "id": "ToggleBookmark6",
+      "description": "Toggle Bookmark 6",
+      "shortcuts": []
+    },
+    {
+      "id": "ToggleBookmark7",
+      "description": "Toggle Bookmark 7",
+      "shortcuts": []
+    },
+    {
+      "id": "ToggleBookmark8",
+      "description": "Toggle Bookmark 8",
+      "shortcuts": []
+    },
+    {
+      "id": "ToggleBookmark9",
+      "description": "Toggle Bookmark 9",
+      "shortcuts": []
+    },
+    {
+      "id": "GotoClass",
+      "description": "Class...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control O"
+        }
+      ]
+    },
+    {
+      "id": "GotoChangedFile",
+      "description": "Go To Changed File...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control O"
+        }
+      ]
+    },
+    {
+      "id": "GotoFile",
+      "description": "File...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt O"
+        }
+      ]
+    },
+    {
+      "id": "GotoNextBookmark",
+      "description": "Next Bookmark",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control PERIOD"
+        }
+      ]
+    },
+    {
+      "id": "GotoNextError",
+      "description": "Next Highlighted Error",
+      "shortcuts": [
+        {
+          "firstKeystroke": "F2"
+        },
+        {
+          "firstKeystroke": "control PERIOD"
+        }
+      ]
+    },
+    {
+      "id": "GotoPreviousBookmark",
+      "description": "Previous Bookmark",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control COMMA"
+        }
+      ]
+    },
+    {
+      "id": "GotoPreviousError",
+      "description": "Previous Highlighted Error",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift F2"
+        },
+        {
+          "firstKeystroke": "control COMMA"
+        }
+      ]
+    },
+    {
+      "id": "GotoSuperMethod",
+      "description": "Super Method",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control P"
+        }
+      ]
+    },
+    {
+      "id": "GotoSymbol",
+      "description": "Symbol...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control alt O"
+        }
+      ]
+    },
+    {
+      "id": "HideAllWindows",
+      "description": "Hide All Tool Windows",
+      "shortcuts": []
+    },
+    {
+      "id": "HippieBackwardCompletion",
+      "description": "Cyclic Expand Word (Backward)",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control K"
+        }
+      ]
+    },
+    {
+      "id": "HippieCompletion",
+      "description": "Cyclic Expand Word",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control K"
+        }
+      ]
+    },
+    {
+      "id": "ImplementMethods",
+      "description": "Implement Methods...",
+      "shortcuts": []
+    },
+    {
+      "id": "IntroduceConstant",
+      "description": "Introduce Constant...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt C"
+        }
+      ]
+    },
+    {
+      "id": "IntroduceField",
+      "description": "Introduce Field...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt E"
+        }
+      ]
+    },
+    {
+      "id": "IntroduceFunctionalParameter",
+      "description": "Introduce Functional Parameter...",
+      "shortcuts": []
+    },
+    {
+      "id": "IntroduceVariable",
+      "description": "Introduce Variable...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt V"
+        }
+      ]
+    },
+    {
+      "id": "MethodDown",
+      "description": "Next Method",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control alt DOWN"
+        }
+      ]
+    },
+    {
+      "id": "MethodHierarchy",
+      "description": "Method Hierarchy",
+      "shortcuts": [],
+      "actionGroup": "Base on This Method"
+    },
+    {
+      "id": "MethodUp",
+      "description": "Previous Method",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control alt UP"
+        }
+      ]
+    },
+    {
+      "id": "Move",
+      "description": "Move...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control M"
+        }
+      ]
+    },
+    {
+      "id": "MoveStatementDown",
+      "description": "Move Statement Down",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt PAGE_DOWN"
+        }
+      ]
+    },
+    {
+      "id": "MoveStatementUp",
+      "description": "Move Statement Up",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt PAGE_UP"
+        }
+      ]
+    },
+    {
+      "id": "NewElement",
+      "description": "New...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "alt INSERT"
+        },
+        {
+          "firstKeystroke": "control N"
+        }
+      ]
+    },
+    {
+      "id": "NewProject",
+      "description": "Project...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control N"
+        }
+      ]
+    },
+    {
+      "id": "NextEditorTab",
+      "description": "Select Next Tab in multi-editor file",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control alt PAGE_DOWN"
+        }
+      ]
+    },
+    {
+      "id": "GotoNextElementUnderCaretUsage",
+      "description": "Go to next highlighted element usage",
+      "shortcuts": [
+        {
+          "firstKeystroke": "alt DOWN"
+        }
+      ]
+    },
+    {
+      "id": "NextTab",
+      "description": "Select Next Tab",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control PAGE_DOWN"
+        }
+      ]
+    },
+    {
+      "id": "Diff.PrevChange",
+      "description": "Compare Previous File",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control PAGE_UP"
+        }
+      ]
+    },
+    {
+      "id": "Diff.NextChange",
+      "description": "Compare Next File",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control PAGE_DOWN"
+        }
+      ]
+    },
+    {
+      "id": "Diff.ApplyLeftSide",
+      "description": "Accept Left Side",
+      "shortcuts": []
+    },
+    {
+      "id": "Diff.ApplyRightSide",
+      "description": "Accept Right Side",
+      "shortcuts": []
+    },
+    {
+      "id": "OpenFile",
+      "description": "Open...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control O"
+        }
+      ]
+    },
+    {
+      "id": "OptimizeImports",
+      "description": "Optimize Imports",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control I"
+        }
+      ]
+    },
+    {
+      "id": "OverrideMethods",
+      "description": "Override Methods...",
+      "shortcuts": []
+    },
+    {
+      "id": "PreviousEditorTab",
+      "description": "Select Previous Tab in multi-editor file",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control alt PAGE_UP"
+        }
+      ]
+    },
+    {
+      "id": "GotoPrevElementUnderCaretUsage",
+      "description": "Go to previous highlighted element usage",
+      "shortcuts": [
+        {
+          "firstKeystroke": "alt UP"
+        }
+      ]
+    },
+    {
+      "id": "PreviousTab",
+      "description": "Select Previous Tab",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control PAGE_UP"
+        }
+      ]
+    },
+    {
+      "id": "Print",
+      "description": "Print...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control alt P"
+        }
+      ]
+    },
+    {
+      "id": "ExpressionTypeInfo",
+      "description": "Type Info",
+      "shortcuts": []
+    },
+    {
+      "id": "QuickImplementations",
+      "description": "Quick Definition",
+      "shortcuts": []
+    },
+    {
+      "id": "RecentChangedFiles",
+      "description": "Recently Changed Files",
+      "shortcuts": []
+    },
+    {
+      "id": "RecentChanges",
+      "description": "Recent Changes",
+      "shortcuts": []
+    },
+    {
+      "id": "RecentFiles",
+      "description": "Recent Files",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift F4"
+        }
+      ]
+    },
+    {
+      "id": "ReformatCode",
+      "description": "Reformat Code",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt F"
+        }
+      ]
+    },
+    {
+      "id": "Refresh",
+      "description": "Refresh",
+      "shortcuts": [],
+      "actionGroup": "Refresh"
+    },
+    {
+      "id": "ForceRefresh",
+      "description": "Force Refresh",
+      "shortcuts": [],
+      "actionGroup": "Force Refresh"
+    },
+    {
+      "id": "RenameElement",
+      "description": "Rename...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control R"
+        }
+      ]
+    },
+    {
+      "id": "Replace",
+      "description": "Replace...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control H"
+        }
+      ]
+    },
+    {
+      "id": "ReplaceInPath",
+      "description": "Replace in Path...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control H"
+        }
+      ]
+    },
+    {
+      "id": "Rerun",
+      "description": "Rerun",
+      "shortcuts": [],
+      "actionGroup": "Rerun"
+    },
+    {
+      "id": "Resume",
+      "description": "Resume Program",
+      "shortcuts": [
+        {
+          "firstKeystroke": "F5"
+        }
+      ]
+    },
+    {
+      "id": "RunToCursor",
+      "description": "Run to Cursor",
+      "shortcuts": [
+        {
+          "firstKeystroke": "F4"
+        }
+      ]
+    },
+    {
+      "id": "SaveAll",
+      "description": "Save All",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control S"
+        },
+        {
+          "firstKeystroke": "shift control S"
+        }
+      ]
+    },
+    {
+      "id": "SelectIn",
+      "description": "Select In...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control 1"
+        },
+        {
+          "firstKeystroke": "shift control 2"
+        },
+        {
+          "firstKeystroke": "shift control 3"
+        },
+        {
+          "firstKeystroke": "shift control 9"
+        }
+      ]
+    },
+    {
+      "id": "ShowBookmarks",
+      "description": "Show Bookmarks",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control M"
+        }
+      ]
+    },
+    {
+      "id": "ShowPopupMenu",
+      "description": "Show Context Menu",
+      "shortcuts": [
+        {
+          "firstKeystroke": "CONTEXT_MENU"
+        },
+        {
+          "firstKeystroke": "shift F10"
+        }
+      ]
+    },
+    {
+      "id": "SmartTypeCompletion",
+      "description": "SmartType",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control SPACE"
+        },
+        {
+          "firstKeystroke": "shift control BACK_SLASH"
+        }
+      ]
+    },
+    {
+      "id": "StepOut",
+      "description": "Step Out",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control F7"
+        }
+      ]
+    },
+    {
+      "id": "Stop",
+      "description": "Stop",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift F5"
+        },
+        {
+          "firstKeystroke": "shift control DELETE"
+        }
+      ]
+    },
+    {
+      "id": "StructuralSearchPlugin.StructuralReplaceAction",
+      "description": "Replace Structurally...",
+      "shortcuts": []
+    },
+    {
+      "id": "StructuralSearchPlugin.StructuralSearchAction",
+      "description": "Search Structurally...",
+      "shortcuts": []
+    },
+    {
+      "id": "ToggleBookmark",
+      "description": "Toggle Bookmark",
+      "shortcuts": []
+    },
+    {
+      "id": "ToggleDockMode",
+      "description": "Docked Mode",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control BACK_SPACE"
+        }
+      ]
+    },
+    {
+      "id": "ToggleFloatingMode",
+      "description": "Floating Mode",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt D"
+        }
+      ]
+    },
+    {
+      "id": "TypeHierarchy",
+      "description": "Type Hierarchy",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt F12"
+        }
+      ],
+      "actionGroup": "Base on This Type"
+    },
+    {
+      "id": "Unwrap",
+      "description": "Unwrap/Remove...",
+      "shortcuts": []
+    },
+    {
+      "id": "ValidateXml",
+      "description": "Validate",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt F9"
+        }
+      ]
+    },
+    {
+      "id": "MoveLineDown",
+      "description": "Move Line Down",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt DOWN"
+        }
+      ]
+    },
+    {
+      "id": "MoveLineUp",
+      "description": "Move Line Up",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt UP"
+        }
+      ]
+    },
+    {
+      "id": "Vcs.ShowMessageHistory",
+      "description": "Commit Message History",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control M"
+        },
+        {
+          "firstKeystroke": "shift F4"
+        }
+      ]
+    },
+    {
+      "id": "EditorMatchBrace",
+      "description": "Move Caret to Matching Brace",
+      "shortcuts": []
+    },
+    {
+      "id": "ChangesView.Rename",
+      "description": "Edit Changelist...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control R"
+        }
+      ]
+    },
+    {
+      "id": "ShelvedChanges.Rename",
+      "description": "Rename...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control R"
+        }
+      ]
+    },
+    {
+      "id": "Vcs.MoveChangedLinesToChangelist",
+      "description": "Move Lines to Another Changelist...",
+      "shortcuts": []
+    },
+    {
+      "id": "ChangesView.Move",
+      "description": "Move to Another Changelist...",
+      "shortcuts": []
+    }
+  ]
+}
