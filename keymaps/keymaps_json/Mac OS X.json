@@ -82,6 +82,7 @@
     {
       "id": "ClassNameCompletion",
       "description": "Second Basic Completion",
+      "fullTextDescription": "Same as pressing shortcut for Basic Completion twice (may be used to complete non-imported class name)",
       "shortcuts": [
         {
           "firstKeystroke": "control alt SPACE"
@@ -91,6 +92,7 @@
     {
       "id": "SmartTypeCompletion",
       "description": "SmartType",
+      "fullTextDescription": "Complete code basing on expected type",
       "shortcuts": [
         {
           "firstKeystroke": "control shift SPACE"
@@ -146,6 +148,7 @@
     {
       "id": "QuickJavaDoc",
       "description": "Quick Documentation",
+      "fullTextDescription": "Show a popup window with documentation for the symbol at caret",
       "shortcuts": [
         {
           "firstKeystroke": "control J"
@@ -155,6 +158,7 @@
     {
       "id": "ExpressionTypeInfo",
       "description": "Type Info",
+      "fullTextDescription": "Show type of the selected expression",
       "shortcuts": [
         {
           "firstKeystroke": "control shift P"
@@ -164,6 +168,7 @@
     {
       "id": "SafeDelete",
       "description": "Safe Delete...",
+      "fullTextDescription": "Delete the selected class, method or field, checking for usages",
       "shortcuts": [
         {
           "firstKeystroke": "meta DELETE"
@@ -205,6 +210,7 @@
     {
       "id": "ExternalJavaDoc",
       "description": "External Documentation",
+      "fullTextDescription": "Open browser with documentation for the selected item",
       "shortcuts": [
         {
           "firstKeystroke": "shift F1"
@@ -214,6 +220,7 @@
     {
       "id": "EditorContextInfo",
       "description": "Context Info",
+      "fullTextDescription": "Show the current method or class declaration when it is not visible",
       "shortcuts": [
         {
           "firstKeystroke": "control shift Q"
@@ -223,6 +230,7 @@
     {
       "id": "MethodDown",
       "description": "Next Method",
+      "fullTextDescription": "Navigate to the next method in the active editor",
       "shortcuts": [
         {
           "firstKeystroke": "control DOWN"
@@ -464,6 +472,7 @@
     {
       "id": "MethodUp",
       "description": "Previous Method",
+      "fullTextDescription": "Navigate to the previous method in the active editor",
       "shortcuts": [
         {
           "firstKeystroke": "control UP"
@@ -522,6 +531,7 @@
     {
       "id": "ShowContent",
       "description": "Show List of Tabs",
+      "fullTextDescription": "Show a popup with the list of toolwindow tabs",
       "shortcuts": [
         {
           "firstKeystroke": "control DOWN"
@@ -577,11 +587,13 @@
     {
       "id": "ValidateXml",
       "description": "Validate",
+      "fullTextDescription": "Validate the current XML file",
       "shortcuts": []
     },
     {
       "id": "TypeHierarchy",
       "description": "Type Hierarchy",
+      "fullTextDescription": "Browse hierarchy for the selected class",
       "shortcuts": [
         {
           "firstKeystroke": "control H"
@@ -640,6 +652,7 @@
     {
       "id": "NewElement",
       "description": "New...",
+      "fullTextDescription": "Create new class, interface, file or directory",
       "shortcuts": [
         {
           "firstKeystroke": "control N"
@@ -652,6 +665,7 @@
     {
       "id": "NewElementSamePlace",
       "description": "New...",
+      "fullTextDescription": "Create new class, interface, file or directory in this directory",
       "shortcuts": [
         {
           "firstKeystroke": "control alt N"
@@ -661,6 +675,7 @@
     {
       "id": "Generate",
       "description": "Generate...",
+      "fullTextDescription": "Generate constructor, getter or setter method, etc.",
       "shortcuts": [
         {
           "firstKeystroke": "control N"
@@ -673,6 +688,7 @@
     {
       "id": "EditorToggleColumnMode",
       "description": "Column Selection Mode",
+      "fullTextDescription": "Toggle column selection mode in current editor",
       "shortcuts": [
         {
           "firstKeystroke": "shift meta 8"
@@ -728,6 +744,7 @@
     {
       "id": "GotoTypeDeclaration",
       "description": "Type Declaration",
+      "fullTextDescription": "Navigate to the declaration of the symbol\u0027s type at caret",
       "shortcuts": [
         {
           "firstKeystroke": "control shift B"
@@ -746,6 +763,7 @@
     {
       "id": "FindNext",
       "description": "Find Next / Move to Next Occurrence",
+      "fullTextDescription": "Repeat the last Find/Replace operation, or moving to next occurrence of selected text",
       "shortcuts": [
         {
           "firstKeystroke": "F3"
@@ -758,6 +776,7 @@
     {
       "id": "FindPrevious",
       "description": "Find Previous / Move to Previous Occurrence",
+      "fullTextDescription": "Repeat the last Find/Replace operation in reverse direction, or moving to previous occurrence of selected text",
       "shortcuts": [
         {
           "firstKeystroke": "shift F3"
@@ -770,6 +789,7 @@
     {
       "id": "SelectNextOccurrence",
       "description": "Add Selection for Next Occurrence",
+      "fullTextDescription": "Set multiple cursors by adding the next occurrence of the current word to the selection.",
       "shortcuts": [
         {
           "firstKeystroke": "control G"
@@ -779,6 +799,7 @@
     {
       "id": "UnselectPreviousOccurrence",
       "description": "Unselect Occurrence",
+      "fullTextDescription": "Remove the current occurrence of the word from the selection.",
       "shortcuts": [
         {
           "firstKeystroke": "control shift G"
@@ -788,6 +809,7 @@
     {
       "id": "SelectAllOccurrences",
       "description": "Select All Occurrences",
+      "fullTextDescription": "Set multiple cursors by adding all occurrences of the current word to the selection.",
       "shortcuts": [
         {
           "firstKeystroke": "meta control G"
@@ -815,6 +837,7 @@
     {
       "id": "CallHierarchy",
       "description": "Call Hierarchy",
+      "fullTextDescription": "Browse call hierarchy for the selected method",
       "shortcuts": [
         {
           "firstKeystroke": "control alt H"
@@ -860,6 +883,7 @@
     {
       "id": "ReplaceInPath",
       "description": "Replace in Path...",
+      "fullTextDescription": "Replace a string in multiple files with another string",
       "shortcuts": [
         {
           "firstKeystroke": "control shift R"
@@ -1020,6 +1044,7 @@
     {
       "id": "QuickChangeScheme",
       "description": "Quick Switch Scheme...",
+      "fullTextDescription": "Change current code style scheme, color\\\u0026fonts scheme, keymap or Look\\\u0026Feel",
       "shortcuts": [
         {
           "firstKeystroke": "control BACK_QUOTE"
@@ -1029,6 +1054,7 @@
     {
       "id": "NewScratchFile",
       "description": "Scratch File",
+      "fullTextDescription": "Creates new scratch file with chosen language",
       "shortcuts": [
         {
           "firstKeystroke": "control shift N"
@@ -1145,6 +1171,7 @@
     {
       "id": "ChangesView.SetDefault",
       "description": "Set Active Changelist",
+      "fullTextDescription": "Set changelist to which new changes are placed by default",
       "shortcuts": [
         {
           "firstKeystroke": "control SPACE"
@@ -1198,6 +1225,7 @@
     {
       "id": "RunToCursor",
       "description": "Run to Cursor",
+      "fullTextDescription": "Run to the line where the caret is",
       "shortcuts": [
         {
           "firstKeystroke": "alt f9"

@@ -23,7 +23,8 @@ public class ActionsXmlParser {
     final static boolean CLEANUP = true;
 
     final static Logger logger = Logger.getLogger(ActionsXmlParser.class);
-//    private Gson gson = new Gson();
+    public static final int FULL_TEXT_LENGTH_THRESHOLD = 18;
+    //    private Gson gson = new Gson();
     private Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
     public static final String TEXT = "text";
@@ -92,11 +93,14 @@ public class ActionsXmlParser {
 
                 String propertiesKey = "action." + action.getId() + ".text";
                 if (properties.containsKey(propertiesKey)) {
-                    if (descriptionFoundInXml) {
-                        logger.error("ID presented in both XML and property files: " + action.getId());
-                    }
                     descriptionFoundInProperties = true;
                     action.setDescription(properties.getProperty(propertiesKey));
+
+                    String descriptionKey = "action." + action.getId() + ".description";
+                    if (properties.containsKey(descriptionKey) && (action.getFullTextDescription() == null || action.getFullTextDescription().length() == 0)
+                            && Math.abs(properties.getProperty(descriptionKey).length() - action.getDescription().length()) > FULL_TEXT_LENGTH_THRESHOLD) {
+                        action.setFullTextDescription(properties.getProperty(descriptionKey));
+                    }
                 }
 
                 if (!descriptionFoundInXml && !descriptionFoundInProperties) continue;
@@ -143,8 +147,11 @@ public class ActionsXmlParser {
                 if (node.getNodeName().equals(ACTION)) {
                     if (hasAttr(node, ID) && getAttr(node, ID).equals(action.getId())) {
                         setHumanReadableName(action, node, "Description", Action::setDescription);
+                        // commented because it gives around 50 descriptions, but doesn't work (trash descriptions are adding as well)
+//                        addFullTextDescriptionFromXml(action, node);
                     } else if (hasAttr(node, USE_SHORTCUT_OF) && getAttr(node, USE_SHORTCUT_OF).equals(action.getId())) {
                         setHumanReadableName(action, node, "Description", Action::setDescription);
+//                        addFullTextDescriptionFromXml(action, node);
                     }
                     logger.trace("Group name is missing for action " + action.getId());
                 } else if (node.getNodeName().equals(GROUP)) {
@@ -153,9 +160,11 @@ public class ActionsXmlParser {
                         if (hasAttr(actionNode, ID) && getAttr(actionNode, ID).equals(action.getId())) {
                             setHumanReadableName(action, actionNode, "Description", Action::setDescription);
                             setHumanReadableName(action, node, "Group name", Action::setActionGroup);
+//                            addFullTextDescriptionFromXml(action, actionNode);
                         } else if (hasAttr(actionNode, USE_SHORTCUT_OF) && getAttr(actionNode, USE_SHORTCUT_OF).equals(action.getId())) {
                             setHumanReadableName(action, actionNode, "Description", Action::setDescription);
                             setHumanReadableName(action, node, "Group name", Action::setActionGroup);
+//                            addFullTextDescriptionFromXml(action, actionNode);
                         }
                     }
                 } else if (node.getNodeName().equals("reference")) {
@@ -166,6 +175,12 @@ public class ActionsXmlParser {
             }
         }
         return action.getDescription() != null;
+    }
+
+    private void addFullTextDescriptionFromXml(Action action, Node node) {
+        if (action.getDescription() != null && action.getDescription().length() > 0 && hasAttr(node, DESCRIPTION) && Math.abs(getAttr(node, DESCRIPTION).length() - action.getDescription().length()) > FULL_TEXT_LENGTH_THRESHOLD) {
+            setHumanReadableName(action, node, "FullTextDescription", Action::setFullTextDescription);
+        }
     }
 
     private boolean isNodeTextOrComment(Node actionNode) {

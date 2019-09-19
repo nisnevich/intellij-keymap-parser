@@ -4,6 +4,7 @@
     {
       "id": "Back",
       "description": "Back",
+      "fullTextDescription": "Undo last navigation operation",
       "shortcuts": [
         {
           "firstKeystroke": "shift alt LEFT"
@@ -22,6 +23,7 @@
     {
       "id": "Find",
       "description": "Find...",
+      "fullTextDescription": "Find a string in active editor",
       "shortcuts": [
         {
           "firstKeystroke": "control F"
@@ -34,6 +36,7 @@
     {
       "id": "FindUsages",
       "description": "Find Usages",
+      "fullTextDescription": "Find usages of the symbol at caret",
       "shortcuts": [
         {
           "firstKeystroke": "shift alt 7"
@@ -43,6 +46,7 @@
     {
       "id": "Forward",
       "description": "Forward",
+      "fullTextDescription": "Redo last undone navigation operation",
       "shortcuts": [
         {
           "firstKeystroke": "shift alt RIGHT"
@@ -70,6 +74,7 @@
     {
       "id": "ProjectViewChangeView",
       "description": "Change View...",
+      "fullTextDescription": "Choose Project, Sourcepath or Classpath tree in the Project View window",
       "shortcuts": [
         {
           "firstKeystroke": "shift alt 1"
@@ -82,6 +87,7 @@
     {
       "id": "RunToCursor",
       "description": "Run to Cursor",
+      "fullTextDescription": "Run to the line where the caret is",
       "shortcuts": [
         {
           "firstKeystroke": "shift alt 9"
@@ -91,6 +97,7 @@
     {
       "id": "SelectIn",
       "description": "Select In...",
+      "fullTextDescription": "Select the current class or method in any view",
       "shortcuts": [
         {
           "firstKeystroke": "shift alt 1"
@@ -103,6 +110,7 @@
     {
       "id": "ShowExecutionPoint",
       "description": "Show Execution Point",
+      "fullTextDescription": "Show the current program execution point",
       "shortcuts": [
         {
           "firstKeystroke": "shift alt 0"

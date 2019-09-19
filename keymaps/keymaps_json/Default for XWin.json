@@ -4,6 +4,7 @@
     {
       "id": "ForceRunToCursor",
       "description": "Force Run to Cursor",
+      "fullTextDescription": "Run to the line where the caret is, ignoring any breakpoints",
       "shortcuts": [
         {
           "firstKeystroke": "control alt 9"
@@ -22,6 +23,7 @@
     {
       "id": "ShowUsages",
       "description": "Show Usages",
+      "fullTextDescription": "Show usages of the symbol at caret",
       "shortcuts": [
         {
           "firstKeystroke": "control alt 7"
@@ -31,6 +33,7 @@
     {
       "id": "ShowSettingsAndFindUsages",
       "description": "Find Usages Settings...",
+      "fullTextDescription": "Choose scope and edit options for the Find Usages action",
       "shortcuts": [
         {
           "firstKeystroke": "control shift alt 7"
@@ -58,6 +61,7 @@
     {
       "id": "ShowFilePath",
       "description": "File Path",
+      "fullTextDescription": "Popup path of the current file for opening in external file manager",
       "shortcuts": [
         {
           "firstKeystroke": "control alt shift 2"

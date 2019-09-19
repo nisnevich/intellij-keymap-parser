@@ -4,6 +4,7 @@
     {
       "id": "StepOut",
       "description": "Step Out",
+      "fullTextDescription": "Step to the first line executed after returning from this method",
       "shortcuts": [
         {
           "firstKeystroke": "shift F11"
@@ -43,6 +44,7 @@
     {
       "id": "ShowErrorDescription",
       "description": "Error Description",
+      "fullTextDescription": "Show description of error or warning at caret",
       "shortcuts": [
         {
           "firstKeystroke": "control F1"
@@ -55,6 +57,7 @@
     {
       "id": "FindUsages",
       "description": "Find Usages",
+      "fullTextDescription": "Find usages of the symbol at caret",
       "shortcuts": [
         {
           "firstKeystroke": "shift alt F7"
@@ -64,6 +67,7 @@
     {
       "id": "StepInto",
       "description": "Step Into",
+      "fullTextDescription": "Step to the next line executed",
       "shortcuts": [
         {
           "firstKeystroke": "F11"
@@ -76,6 +80,7 @@
     {
       "id": "ForceStepInto",
       "description": "Force Step Into",
+      "fullTextDescription": "Step into, ignore stepping filters for libraries, constructors, etc.",
       "shortcuts": [
         {
           "firstKeystroke": "alt F11"
@@ -100,6 +105,7 @@
     {
       "id": "Compile",
       "description": "Rebuild",
+      "fullTextDescription": "Force recompilation for selected module, file or package",
       "shortcuts": [
         {
           "firstKeystroke": "control F7"
@@ -121,6 +127,7 @@
     {
       "id": "Generate",
       "description": "Generate...",
+      "fullTextDescription": "Generate constructor, getter or setter method, etc.",
       "shortcuts": [
         {
           "firstKeystroke": "control N"
@@ -133,6 +140,7 @@
     {
       "id": "ShowExecutionPoint",
       "description": "Show Execution Point",
+      "fullTextDescription": "Show the current program execution point",
       "shortcuts": [
         {
           "firstKeystroke": "alt MULTIPLY"
@@ -177,6 +185,7 @@
     {
       "id": "StepOver",
       "description": "Step Over",
+      "fullTextDescription": "Step to the next line in this file",
       "shortcuts": [
         {
           "firstKeystroke": "F10"
@@ -189,6 +198,7 @@
     {
       "id": "GotoTypeDeclaration",
       "description": "Type Declaration",
+      "fullTextDescription": "Navigate to the declaration of the symbol\u0027s type at caret",
       "shortcuts": [
         {
           "firstKeystroke": "shift alt F12"
@@ -213,6 +223,7 @@
     {
       "id": "GotoClass",
       "description": "Class...",
+      "fullTextDescription": "Quickly navigate to a class by name",
       "shortcuts": [
         {
           "firstKeystroke": "control COMMA"
@@ -222,6 +233,7 @@
     {
       "id": "GotoChangedFile",
       "description": "Go To Changed File...",
+      "fullTextDescription": "Quickly navigate to changed file by name",
       "shortcuts": [
         {
           "firstKeystroke": "control COMMA"
@@ -232,6 +244,7 @@
     {
       "id": "ParameterInfo",
       "description": "Parameter Info",
+      "fullTextDescription": "Show parameters of the method call at caret",
       "shortcuts": [
         {
           "firstKeystroke": "shift control SPACE"
@@ -241,6 +254,7 @@
     {
       "id": "ExpressionTypeInfo",
       "description": "Type Info",
+      "fullTextDescription": "Show type of the selected expression",
       "shortcuts": []
     },
     {
@@ -255,6 +269,7 @@
     {
       "id": "FindNext",
       "description": "Find Next / Move to Next Occurrence",
+      "fullTextDescription": "Repeat the last Find/Replace operation, or moving to next occurrence of selected text",
       "shortcuts": [
         {
           "firstKeystroke": "F3"
@@ -273,6 +288,7 @@
     {
       "id": "ImplementMethods",
       "description": "Implement Methods...",
+      "fullTextDescription": "Implement base interface/class methods in the current class",
       "shortcuts": [
         {
           "firstKeystroke": "shift control I"
@@ -282,6 +298,7 @@
     {
       "id": "SmartTypeCompletion",
       "description": "SmartType",
+      "fullTextDescription": "Complete code basing on expected type",
       "shortcuts": [
         {
           "firstKeystroke": "shift alt SPACE"
@@ -291,6 +308,7 @@
     {
       "id": "GotoDeclaration",
       "description": "Declaration or Usages",
+      "fullTextDescription": "Navigate to the declaration of the symbol at caret or show its usages",
       "shortcuts": [
         {
           "firstKeystroke": "F12"
@@ -306,6 +324,7 @@
     {
       "id": "NewElement",
       "description": "New...",
+      "fullTextDescription": "Create new class, interface, file or directory",
       "shortcuts": [
         {
           "firstKeystroke": "alt INSERT"
@@ -315,6 +334,7 @@
     {
       "id": "FindPrevious",
       "description": "Find Previous / Move to Previous Occurrence",
+      "fullTextDescription": "Repeat the last Find/Replace operation in reverse direction, or moving to previous occurrence of selected text",
       "shortcuts": [
         {
           "firstKeystroke": "shift F3"
@@ -324,6 +344,7 @@
     {
       "id": "FindUsagesInFile",
       "description": "Find Usages in File",
+      "fullTextDescription": "Find usages of the symbol at caret in active editor",
       "shortcuts": [
         {
           "firstKeystroke": "shift control F7"
@@ -336,6 +357,7 @@
     {
       "id": "CompileDirty",
       "description": "Build Project",
+      "fullTextDescription": "Compile all modified and dependent files in the project",
       "shortcuts": [
         {
           "firstKeystroke": "F7"
@@ -345,6 +367,7 @@
     {
       "id": "GotoLine",
       "description": "Line/Column...",
+      "fullTextDescription": "Navigate to a line (and/or column) in editor by its number",
       "shortcuts": [
         {
           "firstKeystroke": "control G"
@@ -354,6 +377,7 @@
     {
       "id": "JumpToLastChange",
       "description": "Last Edit Location",
+      "fullTextDescription": "Move through the most recent change points",
       "shortcuts": [
         {
           "firstKeystroke": "shift control F2"
@@ -375,6 +399,7 @@
     {
       "id": "OverrideMethods",
       "description": "Override Methods...",
+      "fullTextDescription": "Override base class methods in the current class",
       "shortcuts": [
         {
           "firstKeystroke": "shift control O"
@@ -393,6 +418,7 @@
     {
       "id": "ToggleBookmark",
       "description": "Toggle Bookmark",
+      "fullTextDescription": "Toggle bookmark at the current location",
       "shortcuts": [
         {
           "firstKeystroke": "control F2"
@@ -402,6 +428,7 @@
     {
       "id": "Pause",
       "description": "Pause Program",
+      "fullTextDescription": "Suspend program execution and enable debugging",
       "shortcuts": [
         {
           "firstKeystroke": "control PAUSE"
@@ -432,6 +459,7 @@
     {
       "id": "CommentByLineComment",
       "description": "Comment with Line Comment",
+      "fullTextDescription": "Comment/uncomment current line or selected block with line comments",
       "shortcuts": [
         {
           "firstKeystroke": "control SLASH"
@@ -447,6 +475,7 @@
     {
       "id": "RunToCursor",
       "description": "Run to Cursor",
+      "fullTextDescription": "Run to the line where the caret is",
       "shortcuts": [
         {
           "firstKeystroke": "control F10"
@@ -459,6 +488,7 @@
     {
       "id": "QuickJavaDoc",
       "description": "Quick Documentation",
+      "fullTextDescription": "Show a popup window with documentation for the symbol at caret",
       "shortcuts": [
         {
           "firstKeystroke": "control Q"
@@ -477,6 +507,7 @@
     {
       "id": "ViewBreakpoints",
       "description": "View Breakpoints...",
+      "fullTextDescription": "View and manage all breakpoints and watchpoints",
       "shortcuts": [
         {
           "firstKeystroke": "alt F9"
@@ -495,6 +526,7 @@
     {
       "id": "TypeHierarchy",
       "description": "Type Hierarchy",
+      "fullTextDescription": "Browse hierarchy for the selected class",
       "shortcuts": [
         {
           "firstKeystroke": "alt H"
@@ -513,6 +545,7 @@
     {
       "id": "Replace",
       "description": "Replace...",
+      "fullTextDescription": "Replace a string in active editor with another string",
       "shortcuts": [
         {
           "firstKeystroke": "control H"
@@ -522,6 +555,7 @@
     {
       "id": "OpenFile",
       "description": "Open...",
+      "fullTextDescription": "Open a project or a file in editor",
       "shortcuts": [
         {
           "firstKeystroke": "control O"
@@ -549,6 +583,7 @@
     {
       "id": "ExternalJavaDoc",
       "description": "External Documentation",
+      "fullTextDescription": "Open browser with documentation for the selected item",
       "shortcuts": [
         {
           "firstKeystroke": "shift F1"
@@ -597,6 +632,7 @@
     {
       "id": "CopyElement",
       "description": "Copy...",
+      "fullTextDescription": "Create a copy of the selected class, file(s) or directory(es)",
       "shortcuts": []
     },
     {

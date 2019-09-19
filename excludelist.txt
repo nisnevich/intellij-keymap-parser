@@ -1,0 +1,805 @@
+{
+"EditorEscape": {
+    "description": "Escape",
+    "image": null,
+    "shortcut": [
+        "Escape"
+    ],
+    "group": "Navigation Bar Actions",
+    "users": "104652",
+    "usages": "8914615"
+},
+"UsageView.Include": {
+    "description": "Include",
+    "image": null,
+    "shortcut": [
+        "Insert"
+    ],
+    "group": null,
+    "users": "51",
+    "usages": "247"
+},
+"EditorLookupUp": {
+    "description": "Lookup Up",
+    "image": null,
+    "shortcut": [
+        "Control Up"
+    ],
+    "group": null,
+    "users": "870",
+    "usages": "1245"
+},
+"EditorLookupDown": {
+    "description": "Lookup Down",
+    "image": null,
+    "shortcut": [
+        "Control Down"
+    ],
+    "group": null,
+    "users": "2427",
+    "usages": "3468"
+},
+"NextParameter": {
+    "description": "Next Parameter",
+    "image": null,
+    "shortcut": [
+        "Tab"
+    ],
+    "group": null,
+    "users": "1005",
+    "usages": "9577"
+},
+"PrevParameter": {
+    "description": "Prev Parameter",
+    "image": null,
+    "shortcut": [
+        "Shift Tab"
+    ],
+    "group": null,
+    "users": "215",
+    "usages": "539"
+},
+"ViewSource": {
+    "description": "Show Source",
+    "image": null,
+    "shortcut": [
+        "Control Enter"
+    ],
+    "group": null,
+    "users": "2305",
+    "usages": "15473"
+},
+"UnselectPreviousOccurrence": {
+    "description": "Unselect Occurrence",
+    "image": null,
+    "shortcut": [
+        "Alt Shift KeyJ"
+    ],
+    "group": null,
+    "users": "1286",
+    "usages": "8209"
+},
+"GotoBookmark0": {
+    "description": "Go to Bookmark 1",
+    "image": null,
+    "shortcut": [
+        "Control Digit1"
+    ],
+    "group": "Bookmarks",
+    "users": "1360",
+    "usages": "21010"
+},
+"GotoBookmark2": {
+    "description": "Go to Bookmark 2",
+    "image": null,
+    "shortcut": [
+        "Control Digit2"
+    ],
+    "group": "Bookmarks",
+    "users": "937",
+    "usages": "11695"
+},
+"GotoBookmark3": {
+    "description": "Go to Bookmark 3",
+    "image": null,
+    "shortcut": [
+        "Control Digit3"
+    ],
+    "group": "Bookmarks",
+    "users": "630",
+    "usages": "5349"
+},
+"GotoBookmark4": {
+    "description": "Go to Bookmark 4",
+    "image": null,
+    "shortcut": [
+        "Control Digit4"
+    ],
+    "group": "Bookmarks",
+    "users": "392",
+    "usages": "2304"
+},
+"GotoBookmark5": {
+    "description": "Go to Bookmark 5",
+    "image": null,
+    "shortcut": [
+        "Control Digit5"
+    ],
+    "group": "Bookmarks",
+    "users": "201",
+    "usages": "1111"
+},
+"GotoBookmark6": {
+    "description": "Go to Bookmark 6",
+    "image": null,
+    "shortcut": [
+        "Control Digit6"
+    ],
+    "group": "Bookmarks",
+    "users": "120",
+    "usages": "702"
+},
+"GotoBookmark7": {
+    "description": "Go to Bookmark 7",
+    "image": null,
+    "shortcut": [
+        "Control Digit7"
+    ],
+    "group": "Bookmarks",
+    "users": "298",
+    "usages": "1364"
+},
+"GotoBookmark8": {
+    "description": "Go to Bookmark 8",
+    "image": null,
+    "shortcut": [
+        "Control Digit8"
+    ],
+    "group": "Bookmarks",
+    "users": "188",
+    "usages": "957"
+},
+"GotoBookmark9": {
+    "description": "Go to Bookmark 9",
+    "image": null,
+    "shortcut": [
+        "Control Digit9"
+    ],
+    "group": "Bookmarks",
+    "users": "255",
+    "usages": "1442"
+},
+"ToggleBookmark0": {
+    "description": "Toggle Bookmark 1",
+    "image": null,
+    "shortcut": [
+        "Control Shift Digit1"
+    ],
+    "group": "Bookmarks",
+    "users": "1842",
+    "usages": "23024"
+},
+"ToggleBookmark2": {
+    "description": "Toggle Bookmark 2",
+    "image": null,
+    "shortcut": [
+        "Control Shift Digit2"
+    ],
+    "group": "Bookmarks",
+    "users": "1460",
+    "usages": "5959"
+},
+"ToggleBookmark3": {
+    "description": "Toggle Bookmark 3",
+    "image": null,
+    "shortcut": [
+        "Control Shift Digit3"
+    ],
+    "group": "Bookmarks",
+    "users": "1335",
+    "usages": "3920"
+},
+"ToggleBookmark4": {
+    "description": "Toggle Bookmark 4",
+    "image": null,
+    "shortcut": [
+        "Control Shift Digit4"
+    ],
+    "group": "Bookmarks",
+    "users": "1114",
+    "usages": "2193"
+},
+"ToggleBookmark5": {
+    "description": "Toggle Bookmark 5",
+    "image": null,
+    "shortcut": [
+        "Control Shift Digit5"
+    ],
+    "group": "Bookmarks",
+    "users": "540",
+    "usages": "1303"
+},
+"ToggleBookmark6": {
+    "description": "Toggle Bookmark 6",
+    "image": null,
+    "shortcut": [
+        "Control Shift Digit6"
+    ],
+    "group": "Bookmarks",
+    "users": "489",
+    "usages": "1072"
+},
+"ToggleBookmark7": {
+    "description": "Toggle Bookmark 7",
+    "image": null,
+    "shortcut": [
+        "Control Shift Digit7"
+    ],
+    "group": "Bookmarks",
+    "users": "1700",
+    "usages": "6531"
+},
+"ToggleBookmark8": {
+    "description": "Toggle Bookmark 8",
+    "image": null,
+    "shortcut": [
+        "Control Shift Digit8"
+    ],
+    "group": "Bookmarks",
+    "users": "1061",
+    "usages": "2601"
+},
+"ToggleBookmark9": {
+    "description": "Toggle Bookmark 9",
+    "image": null,
+    "shortcut": [
+        "Control Shift Digit9"
+    ],
+    "group": "Bookmarks",
+    "users": "1787",
+    "usages": "3390"
+},
+"PreviousTemplateVariable": {
+    "description": "Previous Template Variable",
+    "image": null,
+    "shortcut": [
+        "Shift Tab"
+    ],
+    "group": null,
+    "users": "1029",
+    "usages": "2499"
+},
+"EditorScrollUp": {
+    "description": "Scroll Up",
+    "image": null,
+    "shortcut": [
+        "Control Up"
+    ],
+    "group": null,
+    "users": "22242",
+    "usages": "950584"
+},
+"ExpandAll": {
+        "description": "Expand All",
+        "image": null,
+        "shortcut": [
+            "Control Add",
+            "Control Equals"
+        ],
+        "group": null,
+        "users": "81",
+        "usages": "1089"
+    },
+    "ExpandExpandableComponent": {
+        "description": "Expand Component",
+        "image": null,
+        "shortcut": [
+            "Shift Enter",
+            "Control Add",
+            "Control Equals"
+        ],
+        "group": null,
+        "users": "2",
+        "usages": "2"
+    },
+    "RunInspection": {
+        "description": "Run Inspection",
+        "image": null,
+        "shortcut": [
+            "Control Shift Alt KeyI"
+        ],
+        "group": null,
+        "users": "373",
+        "usages": "709"
+    },
+    "EditorBackSpace": {
+        "description": "Backspace",
+        "image": null,
+        "shortcut": [
+            "BackSpace",
+            "Shift BackSpace"
+        ],
+        "group": null,
+        "users": "98876",
+        "usages": "2085526"
+    },
+    "MethodHierarchy": {
+        "description": "Method Hierarchy",
+        "image": null,
+        "shortcut": [
+            "Control Shift KeyH"
+        ],
+        "group": null,
+        "users": "627",
+        "usages": "1853"
+    },
+    "PreviousEditorTab": {
+        "description": "Select Previous Tab in multi-editor file",
+        "image": null,
+        "shortcut": [
+            "Alt Shift Left"
+        ],
+        "group": "Tabs",
+        "users": null,
+        "usages": null
+    },
+    "SwitcherRecentEditedChangedToggleCheckBox": {
+    "description": "Switcher Recent Edited Changed Toggle Check Box",
+    "image": null,
+    "shortcut": [
+        "Control KeyE"
+    ],
+    "group": null,
+    "users": "3",
+    "usages": "6"
+},
+"EditorPageUp": {
+    "description": "Page Up",
+    "image": null,
+    "shortcut": [
+        "PageUp"
+    ],
+    "group": "Tree Actions",
+    "users": "37127",
+    "usages": "4276283"
+},
+"$Copy": {
+    "description": "Copy",
+    "image": null,
+    "shortcut": [
+        "Control KeyC",
+        "Control Insert"
+    ],
+    "group": null,
+    "users": "704",
+    "usages": "3596"
+},
+"ExpandAll": {
+    "description": "Expand All",
+    "image": null,
+    "shortcut": [
+        "Control Add",
+        "Control Equals"
+    ],
+    "group": null,
+    "users": "81",
+    "usages": "1089"
+},
+"CollapseAll": {
+    "description": "Collapse All",
+    "image": null,
+    "shortcut": [
+        "Control Subtract",
+        "Control Minus"
+    ],
+    "group": null,
+    "users": "217",
+    "usages": "1564"
+},
+"PreviousOccurence": {
+    "description": "Previous Occurrence",
+    "image": null,
+    "shortcut": [
+        "Control Alt Up"
+    ],
+    "group": null,
+    "users": "696",
+    "usages": "23231"
+},
+"SendEOF": {
+    "description": "Send EOF",
+    "image": null,
+    "shortcut": [
+        "Control KeyD"
+    ],
+    "group": null,
+    "users": "654",
+    "usages": "3288"
+},
+"EditorLeft": {
+    "description": "Left",
+    "image": null,
+    "shortcut": [
+        "Left"
+    ],
+    "group": "Navigation Bar Actions",
+    "users": "194735",
+    "usages": "205549617"
+},
+"Stop": {
+    "description": "Stop",
+    "image": null,
+    "shortcut": [
+        "Control F2"
+    ],
+    "group": null,
+    "users": "2107",
+    "usages": "57949"
+},
+"EditorPageDown": {
+    "description": "Page Down",
+    "image": null,
+    "shortcut": [
+        "PageDown"
+    ],
+    "group": "Tree Actions",
+    "users": "43134",
+    "usages": "4678138"
+},
+"$Paste": {
+    "description": "Paste",
+    "image": null,
+    "shortcut": [
+        "Control KeyV",
+        "Shift Insert"
+    ],
+    "group": null,
+    "users": "661",
+    "usages": "2368"
+},
+"$Redo": {
+    "description": "Redo",
+    "image": null,
+    "shortcut": [
+        "Control Shift KeyZ",
+        "Alt Shift BackSpace"
+    ],
+    "group": null,
+    "users": "167",
+    "usages": "1434"
+},
+"EditorDown": {
+    "description": "Down",
+    "image": null,
+    "shortcut": [
+        "Down"
+    ],
+    "group": "Navigation Bar Actions",
+    "users": "191502",
+    "usages": "232660672"
+},
+"XDebugger.SetValue": {
+    "description": "Set Value...",
+    "image": null,
+    "shortcut": [
+        "F2"
+    ],
+    "group": null,
+    "users": "943",
+    "usages": "4715"
+},
+"Debugger.EditTypeSource": {
+    "description": "Jump to Object Source",
+    "image": null,
+    "shortcut": [
+        "Shift F4"
+    ],
+    "group": null,
+    "users": "95",
+    "usages": "212"
+},
+"EditorEnter": {
+    "description": "Enter",
+    "image": null,
+    "shortcut": [
+        "Enter"
+    ],
+    "group": "Navigation Bar Actions",
+    "users": "205632",
+    "usages": "98280089"
+},
+"EditorUp": {
+    "description": "Up",
+    "image": null,
+    "shortcut": [
+        "Up"
+    ],
+    "group": "Navigation Bar Actions",
+    "users": "186822",
+    "usages": "164929578"
+},
+"EditorTab": {
+    "description": "Tab",
+    "image": null,
+    "shortcut": [
+        "Tab"
+    ],
+    "group": null,
+    "users": "163926",
+    "usages": "14391078"
+},
+"NextOccurence": {
+    "description": "Next Occurrence",
+    "image": null,
+    "shortcut": [
+        "Control Alt Down"
+    ],
+    "group": null,
+    "users": "1212",
+    "usages": "89861"
+},
+"$SelectAll": {
+    "description": "Select All",
+    "image": null,
+    "shortcut": [
+        "Control KeyA"
+    ],
+    "group": null,
+    "users": "86288",
+    "usages": "1990092"
+},
+"$Delete": {
+    "description": "Delete",
+    "image": null,
+    "shortcut": [
+        "Delete"
+    ],
+    "group": null,
+    "users": "57450",
+    "usages": "798625"
+},
+"ShowPopupMenu": {
+    "description": "Show Context Menu",
+    "image": null,
+    "shortcut": [
+        "ContextMenu"
+    ],
+    "group": null,
+    "users": "14695",
+    "usages": "57871"
+},
+"EditorRight": {
+    "description": "Right",
+    "image": null,
+    "shortcut": [
+        "Right"
+    ],
+    "group": "Navigation Bar Actions",
+    "users": "197816",
+    "usages": "226581192"
+},
+"PreviousDiff": {
+    "description": "Previous Difference",
+    "image": null,
+    "shortcut": [
+        "Shift F7"
+    ],
+    "group": "Diff & Merge",
+    "users": "1518",
+    "usages": "71269"
+},
+"NextDiff": {
+    "description": "Next Difference",
+    "image": null,
+    "shortcut": [
+        "F7"
+    ],
+    "group": "Diff & Merge",
+    "users": "3203",
+    "usages": "1442191"
+},
+"ExportToTextFile": {
+    "description": "Export to Text File",
+    "image": null,
+    "shortcut": [
+        "Alt KeyO"
+    ],
+    "group": null,
+    "users": "7",
+    "usages": "31"
+},
+"EditorChooseLookupItemReplace": {
+    "description": "Choose Lookup Item Replace",
+    "image": null,
+    "shortcut": [
+        "Tab"
+    ],
+    "group": null,
+    "users": "79204",
+    "usages": "9174657"
+},
+"NextParameter": {
+    "description": "Next Parameter",
+    "image": null,
+    "shortcut": [
+        "Tab"
+    ],
+    "group": null,
+    "users": "1005",
+    "usages": "9577"
+},
+"ExpandLiveTemplateByTab": {
+    "description": "Expand Live Template by Tab",
+    "image": null,
+    "shortcut": [
+        "Tab"
+    ],
+    "group": null,
+    "users": "23013",
+    "usages": "841085"
+},
+"EditorIndentSelection": {
+    "description": "Indent Selection",
+    "image": null,
+    "shortcut": [
+        "Tab"
+    ],
+    "group": null,
+    "users": "80301",
+    "usages": "1071582"
+},
+"NextTemplateVariable": {
+    "description": "Next Template Variable or Finish In-Place Refactoring",
+    "image": null,
+    "shortcut": [
+        "Tab",
+        "Enter"
+    ],
+    "group": null,
+    "users": "10094",
+    "usages": "115775"
+},
+"BraceOrQuoteOut": {
+    "description": "Jump Outside Current Bracket/Quote",
+    "image": null,
+    "shortcut": [
+        "Tab"
+    ],
+    "group": null,
+    "users": "33158",
+    "usages": "161903"
+},
+"SearchEverywhere.CompleteCommand": {
+    "description": "Complete Command",
+    "image": null,
+    "shortcut": [
+        "Tab"
+    ],
+    "group": "Search Everywhere",
+    "users": null,
+    "usages": null
+},
+"Refresh": {
+    "description": "Refresh",
+    "image": null,
+    "shortcut": [
+        "Control F5"
+    ],
+    "group": null,
+    "users": null,
+    "usages": null
+},
+"Refresh": {
+    "description": "Refresh",
+    "image": null,
+    "shortcut": [
+        "Control F5"
+    ],
+    "group": null,
+    "users": null,
+    "usages": null
+},
+"ForceRefresh": {
+    "description": "Force Refresh",
+    "image": null,
+    "shortcut": [
+        "Control Shift F5"
+    ],
+    "group": null,
+    "users": null,
+    "usages": null
+},
+"ChangesView.GroupBy.Directory": {
+    "description": "Directory",
+    "image": null,
+    "shortcut": [
+        "Control Alt KeyP"
+    ],
+    "group": "Group By",
+    "users": "103",
+    "usages": "526"
+},
+"ChangesView.GroupBy.Module": {
+    "description": "Changes View. Group By. Module",
+    "image": null,
+    "shortcut": [
+        "Control Alt KeyM"
+    ],
+    "group": null,
+    "users": "28",
+    "usages": "75"
+},
+"Console.Execute": {
+    "description": "Execute Current Statement in One-Line Console",
+    "image": null,
+    "shortcut": [
+        "Enter"
+    ],
+    "group": null,
+    "users": "22185",
+    "usages": "1629264"
+},
+"DirDiffMenu.SynchronizeDiff": {
+    "description": "Synchronize Selected",
+    "image": null,
+    "shortcut": [
+        "Enter"
+    ],
+    "group": null,
+    "users": "137",
+    "usages": "9209"
+},
+"SearchEverywhere.SelectItem": {
+    "description": "Select item",
+    "image": null,
+    "shortcut": [
+        "Enter"
+    ],
+    "group": "Search Everywhere",
+    "users": null,
+    "usages": null
+},
+"Console.History.Browse": {
+    "description": "Browse Console History",
+    "image": null,
+    "shortcut": [
+        "Control Alt KeyE"
+    ],
+    "group": null,
+    "users": "34",
+    "usages": "230"
+},
+"Git.Reword.Commit": {
+    "description": "Git. Reword. Commit",
+    "image": null,
+    "shortcut": [
+        "F2",
+        "Shift F6"
+    ],
+    "group": null,
+    "users": "88",
+    "usages": "219"
+},
+"DirDiffMenu.SynchronizeDiff.All": {
+    "description": "Synchronize All",
+    "image": null,
+    "shortcut": [
+        "Control Enter"
+    ],
+    "group": null,
+    "users": "9",
+    "usages": "656"
+},
+"ShowFilterPopup": {
+    "description": "Show Filter Popup",
+    "image": null,
+    "shortcut": [
+        "Control Alt KeyF"
+    ],
+    "group": null,
+    "users": null,
+    "usages": null
+},
+
+
+}

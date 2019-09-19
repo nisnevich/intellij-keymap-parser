@@ -1,150 +1,16 @@
-2019-09-19 11:31:02 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: $Delete
-2019-09-19 11:31:02 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorLineEnd
-2019-09-19 11:31:02 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorLineStart
-2019-09-19 11:31:02 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorPageDown
-2019-09-19 11:31:02 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorPageDownWithSelection
-2019-09-19 11:31:02 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorPageUp
-2019-09-19 11:31:02 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorScrollToCenter
-2019-09-19 11:31:02 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorTextEnd
-2019-09-19 11:31:02 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorTextEndWithSelection
-2019-09-19 11:31:02 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorTextStart
-2019-09-19 11:31:02 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorTextStartWithSelection
-2019-09-19 11:31:02 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: CallHierarchy
-2019-09-19 11:31:02 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: ShowNavBar
-2019-09-19 11:31:02 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: Stop
-2019-09-19 11:31:02 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorDownWithSelection
-2019-09-19 11:31:02 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorLeftWithSelection
-2019-09-19 11:31:02 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorLineEnd
-2019-09-19 11:31:02 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorLineStart
-2019-09-19 11:31:02 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorRightWithSelection
-2019-09-19 11:31:02 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorUpWithSelection
-2019-09-19 11:31:02 INFO  ActionsXmlParser:121 - Total matches for Xcode: 165 of 199
-2019-09-19 11:31:02 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: $Copy
-2019-09-19 11:31:02 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: Stop
-2019-09-19 11:31:02 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: TypeHierarchy
-2019-09-19 11:31:02 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: Refresh
-2019-09-19 11:31:02 INFO  ActionsXmlParser:121 - Total matches for Visual Studio: 61 of 67
-2019-09-19 11:31:03 INFO  ActionsXmlParser:121 - Total matches for Default for GNOME: 13 of 14
-2019-09-19 11:31:03 INFO  ActionsXmlParser:121 - Total matches for ReSharper: 28 of 30
-2019-09-19 11:31:03 INFO  ActionsXmlParser:121 - Total matches for Default for XWin: 7 of 9
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: $Delete
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorLineStart
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: TypeHierarchy
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorLineEnd
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: CallHierarchy
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: Refresh
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditSource
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: ShowNavBar
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorScrollToCenter
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorDown
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorLeft
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorLineEnd
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorLineStart
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorRight
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorUp
-2019-09-19 11:31:03 INFO  ActionsXmlParser:121 - Total matches for Mac OS X 10.5+: 178 of 205
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorDuplicate
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: TypeHierarchy
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: MethodHierarchy
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: Stop
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorPageDown
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorScrollToCenter
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorTextStart
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: ShowNavBar
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorTextEnd
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditSource
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditSourceInNewWindow
-2019-09-19 11:31:03 INFO  ActionsXmlParser:121 - Total matches for Sublime Text (Mac OS X): 116 of 128
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditSource
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorDuplicate
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: Refresh
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: ShowNavBar
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: TypeHierarchy
-2019-09-19 11:31:03 INFO  ActionsXmlParser:121 - Total matches for Eclipse (Mac OS X): 144 of 156
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorEscape
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorTextStart
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: $Delete
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorPageUp
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: $Copy
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorRight
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorDown
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorDuplicate
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorLineEnd
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorLineStart
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorLeft
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorUp
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorTextEnd
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorPageDown
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorScrollToCenter
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorEnter
-2019-09-19 11:31:03 INFO  ActionsXmlParser:121 - Total matches for Emacs: 101 of 104
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: Refresh
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: Stop
-2019-09-19 11:31:03 INFO  ActionsXmlParser:121 - Total matches for Default for KDE: 45 of 46
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorDuplicate
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: TypeHierarchy
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: MethodHierarchy
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorScrollToCenter
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: Stop
-2019-09-19 11:31:03 INFO  ActionsXmlParser:121 - Total matches for Sublime Text: 111 of 118
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: ShowNavBar
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorPageUpWithSelection
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorEscape
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: ExpandAll
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: MethodHierarchy
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorUpWithSelection
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorLeftWithSelection
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorPageUp
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: $Copy
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: CopyPaths
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: CollapseAll
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorDuplicate
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: CompareTwoFiles
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: Diff.ShowDiff
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorTextEndWithSelection
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorLeft
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: Stop
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorTextStartWithSelection
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: CallHierarchy
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorTextEnd
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorPageDown
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorPageDownWithSelection
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorTextStart
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorDownWithSelection
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorScrollToCenter
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorDown
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditSource
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditSourceInNewWindow
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorLineStart
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorEnter
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorRightWithSelection
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: TypeHierarchy
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorUp
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: $Delete
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorRight
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorLineEnd
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: Refresh
-2019-09-19 11:31:03 INFO  ActionsXmlParser:121 - Total matches for $default: 351 of 383
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: $Delete
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorLineStart
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: TypeHierarchy
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorLineEnd
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: CallHierarchy
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: Refresh
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorScrollToCenter
-2019-09-19 11:31:03 INFO  ActionsXmlParser:121 - Total matches for Mac OS X: 126 of 148
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditSource
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorDuplicate
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: Refresh
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: TypeHierarchy
-2019-09-19 11:31:03 INFO  ActionsXmlParser:121 - Total matches for Eclipse: 136 of 146
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: CopyPaths
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorDuplicate
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: EditorScrollToCenter
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: MethodHierarchy
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: Refresh
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: Stop
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: TypeHierarchy
-2019-09-19 11:31:03 INFO  ActionsXmlParser:121 - Total matches for NetBeans 6.5: 148 of 162
-2019-09-19 11:31:03 ERROR ActionsXmlParser:96 - ID presented in both XML and property files: TypeHierarchy
-2019-09-19 11:31:03 INFO  ActionsXmlParser:121 - Total matches for ReSharper OSX: 60 of 68
+2019-09-19 16:11:41 INFO  ActionsXmlParser:125 - Total matches for Xcode: 165 of 199
+2019-09-19 16:11:41 INFO  ActionsXmlParser:125 - Total matches for Visual Studio: 61 of 67
+2019-09-19 16:11:41 INFO  ActionsXmlParser:125 - Total matches for Default for GNOME: 13 of 14
+2019-09-19 16:11:41 INFO  ActionsXmlParser:125 - Total matches for ReSharper: 28 of 30
+2019-09-19 16:11:41 INFO  ActionsXmlParser:125 - Total matches for Default for XWin: 7 of 9
+2019-09-19 16:11:41 INFO  ActionsXmlParser:125 - Total matches for Mac OS X 10.5+: 178 of 205
+2019-09-19 16:11:42 INFO  ActionsXmlParser:125 - Total matches for Sublime Text (Mac OS X): 116 of 128
+2019-09-19 16:11:42 INFO  ActionsXmlParser:125 - Total matches for Eclipse (Mac OS X): 144 of 156
+2019-09-19 16:11:42 INFO  ActionsXmlParser:125 - Total matches for Emacs: 101 of 104
+2019-09-19 16:11:42 INFO  ActionsXmlParser:125 - Total matches for Default for KDE: 45 of 46
+2019-09-19 16:11:42 INFO  ActionsXmlParser:125 - Total matches for Sublime Text: 111 of 118
+2019-09-19 16:11:42 INFO  ActionsXmlParser:125 - Total matches for $default: 351 of 383
+2019-09-19 16:11:42 INFO  ActionsXmlParser:125 - Total matches for Mac OS X: 126 of 148
+2019-09-19 16:11:42 INFO  ActionsXmlParser:125 - Total matches for Eclipse: 136 of 146
+2019-09-19 16:11:42 INFO  ActionsXmlParser:125 - Total matches for NetBeans 6.5: 148 of 162
+2019-09-19 16:11:42 INFO  ActionsXmlParser:125 - Total matches for ReSharper OSX: 60 of 68

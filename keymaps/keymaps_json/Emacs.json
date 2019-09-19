@@ -37,6 +37,7 @@
     {
       "id": "FindUsages",
       "description": "Find Usages",
+      "fullTextDescription": "Find usages of the symbol at caret",
       "shortcuts": [
         {
           "firstKeystroke": "alt F7"
@@ -67,6 +68,7 @@
     {
       "id": "MethodDown",
       "description": "Next Method",
+      "fullTextDescription": "Navigate to the next method in the active editor",
       "shortcuts": [
         {
           "firstKeystroke": "alt DOWN"
@@ -141,6 +143,7 @@
     {
       "id": "AutoIndentLines",
       "description": "Auto-Indent Lines",
+      "fullTextDescription": "Indent current line or selected block according to the code style settings",
       "shortcuts": [
         {
           "firstKeystroke": "control alt I"
@@ -153,6 +156,7 @@
     {
       "id": "GotoNextError",
       "description": "Next Highlighted Error",
+      "fullTextDescription": "Navigate to the next highlighted error in the active editor",
       "shortcuts": [
         {
           "firstKeystroke": "F2"
@@ -289,6 +293,7 @@
     {
       "id": "GotoPreviousError",
       "description": "Previous Highlighted Error",
+      "fullTextDescription": "Navigate to the previous highlighted error in the active editor",
       "shortcuts": [
         {
           "firstKeystroke": "shift F2"
@@ -302,6 +307,7 @@
     {
       "id": "GotoClass",
       "description": "Class...",
+      "fullTextDescription": "Quickly navigate to a class by name",
       "shortcuts": [
         {
           "firstKeystroke": "shift alt G"
@@ -311,6 +317,7 @@
     {
       "id": "GotoChangedFile",
       "description": "Go To Changed File...",
+      "fullTextDescription": "Quickly navigate to changed file by name",
       "shortcuts": [
         {
           "firstKeystroke": "shift alt G"
@@ -331,6 +338,7 @@
     {
       "id": "GotoFile",
       "description": "File...",
+      "fullTextDescription": "Quickly navigate to a file by name",
       "shortcuts": [
         {
           "firstKeystroke": "control X",
@@ -354,6 +362,7 @@
     {
       "id": "ParameterInfo",
       "description": "Parameter Info",
+      "fullTextDescription": "Show parameters of the method call at caret",
       "shortcuts": [
         {
           "firstKeystroke": "shift alt P"
@@ -376,6 +385,7 @@
     {
       "id": "FindNext",
       "description": "Find Next / Move to Next Occurrence",
+      "fullTextDescription": "Repeat the last Find/Replace operation, or moving to next occurrence of selected text",
       "shortcuts": [
         {
           "firstKeystroke": "F3"
@@ -388,6 +398,7 @@
     {
       "id": "SmartTypeCompletion",
       "description": "SmartType",
+      "fullTextDescription": "Complete code basing on expected type",
       "shortcuts": [
         {
           "firstKeystroke": "shift control SPACE"
@@ -400,6 +411,7 @@
     {
       "id": "GotoDeclaration",
       "description": "Declaration or Usages",
+      "fullTextDescription": "Navigate to the declaration of the symbol at caret or show its usages",
       "shortcuts": [
         {
           "firstKeystroke": "control alt G"
@@ -416,6 +428,7 @@
     {
       "id": "MethodUp",
       "description": "Previous Method",
+      "fullTextDescription": "Navigate to the previous method in the active editor",
       "shortcuts": [
         {
           "firstKeystroke": "alt UP"
@@ -437,6 +450,7 @@
     {
       "id": "FindPrevious",
       "description": "Find Previous / Move to Previous Occurrence",
+      "fullTextDescription": "Repeat the last Find/Replace operation in reverse direction, or moving to previous occurrence of selected text",
       "shortcuts": [
         {
           "firstKeystroke": "shift F3"
@@ -503,6 +517,7 @@
     {
       "id": "GotoLine",
       "description": "Line/Column...",
+      "fullTextDescription": "Navigate to a line (and/or column) in editor by its number",
       "shortcuts": [
         {
           "firstKeystroke": "alt G"
@@ -636,6 +651,7 @@
     {
       "id": "CloseAllEditors",
       "description": "Close All",
+      "fullTextDescription": "Close all editors in active tab group",
       "shortcuts": [
         {
           "firstKeystroke": "control X",
@@ -646,6 +662,7 @@
     {
       "id": "Find",
       "description": "Find...",
+      "fullTextDescription": "Find a string in active editor",
       "shortcuts": [
         {
           "firstKeystroke": "control alt S"
@@ -711,6 +728,7 @@
     {
       "id": "CloseContent",
       "description": "Close",
+      "fullTextDescription": "Close currently focused content",
       "shortcuts": [
         {
           "firstKeystroke": "control F4"
@@ -728,6 +746,7 @@
     {
       "id": "SplitVertically",
       "description": "Split Vertically",
+      "fullTextDescription": "Split editor area into 2 tab groups and move the current tab to the right group",
       "shortcuts": [
         {
           "firstKeystroke": "control X",
@@ -738,6 +757,7 @@
     {
       "id": "SplitHorizontally",
       "description": "Split Horizontally",
+      "fullTextDescription": "Split editor area into 2 tab groups and move the current tab to the bottom group",
       "shortcuts": [
         {
           "firstKeystroke": "control X",
@@ -768,6 +788,7 @@
     {
       "id": "Replace",
       "description": "Replace...",
+      "fullTextDescription": "Replace a string in active editor with another string",
       "shortcuts": [
         {
           "firstKeystroke": "shift alt 5"
@@ -831,6 +852,7 @@
     {
       "id": "CommentByLineComment",
       "description": "Comment with Line Comment",
+      "fullTextDescription": "Comment/uncomment current line or selected block with line comments",
       "shortcuts": [
         {
           "firstKeystroke": "alt SEMICOLON"
@@ -937,6 +959,7 @@
     {
       "id": "GotoAction",
       "description": "Find Action...",
+      "fullTextDescription": "Quickly navigate to action by name",
       "shortcuts": [
         {
           "firstKeystroke": "ESCAPE",
@@ -950,6 +973,7 @@
     {
       "id": "CollapseAllRegions",
       "description": "Collapse All",
+      "fullTextDescription": "Collapse all folding regions (in selection)",
       "shortcuts": []
     },
     {
@@ -960,6 +984,7 @@
     {
       "id": "OverrideMethods",
       "description": "Override Methods...",
+      "fullTextDescription": "Override base class methods in the current class",
       "shortcuts": []
     },
     {
@@ -971,16 +996,19 @@
     {
       "id": "SafeDelete",
       "description": "Safe Delete...",
+      "fullTextDescription": "Delete the selected class, method or field, checking for usages",
       "shortcuts": []
     },
     {
       "id": "IntroduceField",
       "description": "Introduce Field...",
+      "fullTextDescription": "Put a result of the selected expression into a field",
       "shortcuts": []
     },
     {
       "id": "RecentFiles",
       "description": "Recent Files",
+      "fullTextDescription": "Show list of recently viewed files",
       "shortcuts": []
     },
     {
@@ -1011,6 +1039,7 @@
     {
       "id": "GotoImplementation",
       "description": "Implementation(s)",
+      "fullTextDescription": "Navigate to the implementation(s) of the selected class or method",
       "shortcuts": []
     },
     {
