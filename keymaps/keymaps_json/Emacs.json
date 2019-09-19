@@ -12,7 +12,8 @@
         {
           "firstKeystroke": "control G"
         }
-      ]
+      ],
+      "actionGroup": "Navigation Bar Actions"
     },
     {
       "id": "EditorCutLineBackward",
@@ -176,7 +177,8 @@
           "firstKeystroke": "ESCAPE",
           "secondKeystroke": "COMMA"
         }
-      ]
+      ],
+      "actionGroup": "Tree Actions"
     },
     {
       "id": "EditorDeleteToWordStart",
@@ -265,7 +267,8 @@
         {
           "firstKeystroke": "alt V"
         }
-      ]
+      ],
+      "actionGroup": "Tree Actions"
     },
     {
       "id": "Copy",
@@ -281,8 +284,7 @@
           "firstKeystroke": "ESCAPE",
           "secondKeystroke": "W"
         }
-      ],
-      "actionGroup": "Copy Quick Doc"
+      ]
     },
     {
       "id": "GotoPreviousError",
@@ -313,7 +315,8 @@
         {
           "firstKeystroke": "shift alt G"
         }
-      ]
+      ],
+      "actionGroup": "Diff \u0026 Merge"
     },
     {
       "id": "Switcher",
@@ -323,8 +326,7 @@
           "firstKeystroke": "control X",
           "secondKeystroke": "B"
         }
-      ],
-      "actionGroup": "Switcher"
+      ]
     },
     {
       "id": "GotoFile",
@@ -346,7 +348,8 @@
         {
           "firstKeystroke": "control F"
         }
-      ]
+      ],
+      "actionGroup": "Navigation Bar Actions"
     },
     {
       "id": "ParameterInfo",
@@ -367,7 +370,8 @@
         {
           "firstKeystroke": "control N"
         }
-      ]
+      ],
+      "actionGroup": "Navigation Bar Actions"
     },
     {
       "id": "FindNext",
@@ -465,7 +469,8 @@
         {
           "firstKeystroke": "alt shift RIGHT"
         }
-      ]
+      ],
+      "actionGroup": "Tabs"
     },
     {
       "id": "Diff.PrevChange",
@@ -478,7 +483,8 @@
           "firstKeystroke": "control X",
           "secondKeystroke": "P"
         }
-      ]
+      ],
+      "actionGroup": "Diff \u0026 Merge"
     },
     {
       "id": "Diff.NextChange",
@@ -491,7 +497,8 @@
           "firstKeystroke": "control X",
           "secondKeystroke": "N"
         }
-      ]
+      ],
+      "actionGroup": "Diff \u0026 Merge"
     },
     {
       "id": "GotoLine",
@@ -544,7 +551,8 @@
         {
           "firstKeystroke": "alt shift LEFT"
         }
-      ]
+      ],
+      "actionGroup": "Tabs"
     },
     {
       "id": "EditorLineEnd",
@@ -556,7 +564,8 @@
         {
           "firstKeystroke": "control E"
         }
-      ]
+      ],
+      "actionGroup": "Navigation Bar Actions"
     },
     {
       "id": "EditorCodeBlockEnd",
@@ -608,7 +617,8 @@
         {
           "firstKeystroke": "alt M"
         }
-      ]
+      ],
+      "actionGroup": "Navigation Bar Actions"
     },
     {
       "id": "EditorLeft",
@@ -620,7 +630,8 @@
         {
           "firstKeystroke": "control B"
         }
-      ]
+      ],
+      "actionGroup": "Navigation Bar Actions"
     },
     {
       "id": "CloseAllEditors",
@@ -694,7 +705,8 @@
         {
           "firstKeystroke": "control P"
         }
-      ]
+      ],
+      "actionGroup": "Navigation Bar Actions"
     },
     {
       "id": "CloseContent",
@@ -772,7 +784,8 @@
         {
           "firstKeystroke": "shift alt PERIOD"
         }
-      ]
+      ],
+      "actionGroup": "Tree Actions"
     },
     {
       "id": "EditorPageDown",
@@ -784,7 +797,8 @@
         {
           "firstKeystroke": "control V"
         }
-      ]
+      ],
+      "actionGroup": "Tree Actions"
     },
     {
       "id": "VcsShowNextChangeMarker",
@@ -866,8 +880,7 @@
         {
           "firstKeystroke": "control L"
         }
-      ],
-      "actionGroup": "Scroll to Center"
+      ]
     },
     {
       "id": "EditorEnter",
@@ -879,7 +892,8 @@
         {
           "firstKeystroke": "control M"
         }
-      ]
+      ],
+      "actionGroup": "Navigation Bar Actions"
     },
     {
       "id": "EditorChooseLookupItem",
@@ -951,7 +965,8 @@
     {
       "id": "ToggleBookmark2",
       "description": "Toggle Bookmark 2",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "SafeDelete",
@@ -981,6 +996,11 @@
     {
       "id": "PreviousProjectWindow",
       "description": "Previous Project Window",
+      "shortcuts": []
+    },
+    {
+      "id": "Vcs.ToggleAmendCommitMode",
+      "description": "Amend Commit",
       "shortcuts": []
     },
     {

@@ -97,102 +97,122 @@
     {
       "id": "GotoBookmark0",
       "description": "Go to Bookmark 0",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "GotoBookmark1",
       "description": "Go to Bookmark 1",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "GotoBookmark2",
       "description": "Go to Bookmark 2",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "GotoBookmark3",
       "description": "Go to Bookmark 3",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "GotoBookmark4",
       "description": "Go to Bookmark 4",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "GotoBookmark5",
       "description": "Go to Bookmark 5",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "GotoBookmark6",
       "description": "Go to Bookmark 6",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "GotoBookmark7",
       "description": "Go to Bookmark 7",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "GotoBookmark8",
       "description": "Go to Bookmark 8",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "GotoBookmark9",
       "description": "Go to Bookmark 9",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "ToggleBookmark0",
       "description": "Toggle Bookmark 0",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "ToggleBookmark1",
       "description": "Toggle Bookmark 1",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "ToggleBookmark2",
       "description": "Toggle Bookmark 2",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "ToggleBookmark3",
       "description": "Toggle Bookmark 3",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "ToggleBookmark4",
       "description": "Toggle Bookmark 4",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "ToggleBookmark5",
       "description": "Toggle Bookmark 5",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "ToggleBookmark6",
       "description": "Toggle Bookmark 6",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "ToggleBookmark7",
       "description": "Toggle Bookmark 7",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "ToggleBookmark8",
       "description": "Toggle Bookmark 8",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "ToggleBookmark9",
       "description": "Toggle Bookmark 9",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "HighlightUsagesInFile",
@@ -237,8 +257,7 @@
         {
           "firstKeystroke": "control 5"
         }
-      ],
-      "actionGroup": "Refresh"
+      ]
     },
     {
       "id": "ForceRefresh",
@@ -247,8 +266,7 @@
         {
           "firstKeystroke": "control shift 5"
         }
-      ],
-      "actionGroup": "Force Refresh"
+      ]
     },
     {
       "id": "Rerun",
@@ -257,8 +275,7 @@
         {
           "firstKeystroke": "control 5"
         }
-      ],
-      "actionGroup": "Rerun"
+      ]
     },
     {
       "id": "RestoreDefaultLayout",

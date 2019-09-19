@@ -151,6 +151,18 @@
       "shortcuts": []
     },
     {
+      "id": "DebugClass",
+      "description": "Debug",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control F5"
+        },
+        {
+          "firstKeystroke": "shift alt F5"
+        }
+      ]
+    },
+    {
       "id": "XDebugger.NewWatch",
       "description": "New Watch...",
       "shortcuts": [
@@ -243,8 +255,7 @@
     {
       "id": "EditorScrollToCenter",
       "description": "Scroll to Center",
-      "shortcuts": [],
-      "actionGroup": "Scroll to Center"
+      "shortcuts": []
     },
     {
       "id": "EditorSelectWord",
@@ -406,102 +417,122 @@
     {
       "id": "GotoBookmark0",
       "description": "Go to Bookmark 0",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "GotoBookmark1",
       "description": "Go to Bookmark 1",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "GotoBookmark2",
       "description": "Go to Bookmark 2",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "GotoBookmark3",
       "description": "Go to Bookmark 3",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "GotoBookmark4",
       "description": "Go to Bookmark 4",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "GotoBookmark5",
       "description": "Go to Bookmark 5",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "GotoBookmark6",
       "description": "Go to Bookmark 6",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "GotoBookmark7",
       "description": "Go to Bookmark 7",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "GotoBookmark8",
       "description": "Go to Bookmark 8",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "GotoBookmark9",
       "description": "Go to Bookmark 9",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "ToggleBookmark0",
       "description": "Toggle Bookmark 0",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "ToggleBookmark1",
       "description": "Toggle Bookmark 1",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "ToggleBookmark2",
       "description": "Toggle Bookmark 2",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "ToggleBookmark3",
       "description": "Toggle Bookmark 3",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "ToggleBookmark4",
       "description": "Toggle Bookmark 4",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "ToggleBookmark5",
       "description": "Toggle Bookmark 5",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "ToggleBookmark6",
       "description": "Toggle Bookmark 6",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "ToggleBookmark7",
       "description": "Toggle Bookmark 7",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "ToggleBookmark8",
       "description": "Toggle Bookmark 8",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "ToggleBookmark9",
       "description": "Toggle Bookmark 9",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "GotoClass",
@@ -519,7 +550,8 @@
         {
           "firstKeystroke": "control O"
         }
-      ]
+      ],
+      "actionGroup": "Diff \u0026 Merge"
     },
     {
       "id": "GotoFile",
@@ -662,8 +694,7 @@
     {
       "id": "MethodHierarchy",
       "description": "Method Hierarchy",
-      "shortcuts": [],
-      "actionGroup": "Base on This Method"
+      "shortcuts": []
     },
     {
       "id": "MethodUp",
@@ -729,7 +760,8 @@
         {
           "firstKeystroke": "control alt PAGE_DOWN"
         }
-      ]
+      ],
+      "actionGroup": "Tabs"
     },
     {
       "id": "GotoNextElementUnderCaretUsage",
@@ -756,7 +788,8 @@
         {
           "firstKeystroke": "control PAGE_UP"
         }
-      ]
+      ],
+      "actionGroup": "Diff \u0026 Merge"
     },
     {
       "id": "Diff.NextChange",
@@ -765,17 +798,20 @@
         {
           "firstKeystroke": "control PAGE_DOWN"
         }
-      ]
+      ],
+      "actionGroup": "Diff \u0026 Merge"
     },
     {
       "id": "Diff.ApplyLeftSide",
       "description": "Accept Left Side",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Diff \u0026 Merge"
     },
     {
       "id": "Diff.ApplyRightSide",
       "description": "Accept Right Side",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Diff \u0026 Merge"
     },
     {
       "id": "OpenFile",
@@ -807,7 +843,8 @@
         {
           "firstKeystroke": "control alt PAGE_UP"
         }
-      ]
+      ],
+      "actionGroup": "Tabs"
     },
     {
       "id": "GotoPrevElementUnderCaretUsage",
@@ -877,14 +914,12 @@
     {
       "id": "Refresh",
       "description": "Refresh",
-      "shortcuts": [],
-      "actionGroup": "Refresh"
+      "shortcuts": []
     },
     {
       "id": "ForceRefresh",
       "description": "Force Refresh",
-      "shortcuts": [],
-      "actionGroup": "Force Refresh"
+      "shortcuts": []
     },
     {
       "id": "RenameElement",
@@ -916,8 +951,7 @@
     {
       "id": "Rerun",
       "description": "Rerun",
-      "shortcuts": [],
-      "actionGroup": "Rerun"
+      "shortcuts": []
     },
     {
       "id": "Resume",
@@ -925,6 +959,18 @@
       "shortcuts": [
         {
           "firstKeystroke": "F5"
+        }
+      ]
+    },
+    {
+      "id": "RunClass",
+      "description": "Run",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift alt F6"
+        },
+        {
+          "firstKeystroke": "shift F6"
         }
       ]
     },
@@ -1043,7 +1089,8 @@
         {
           "firstKeystroke": "control BACK_SPACE"
         }
-      ]
+      ],
+      "actionGroup": "Tool Windows Legacy View Modes (deprecated)"
     },
     {
       "id": "ToggleFloatingMode",
@@ -1052,7 +1099,8 @@
         {
           "firstKeystroke": "shift alt D"
         }
-      ]
+      ],
+      "actionGroup": "Tool Windows Legacy View Modes (deprecated)"
     },
     {
       "id": "TypeHierarchy",
@@ -1061,8 +1109,7 @@
         {
           "firstKeystroke": "shift alt F12"
         }
-      ],
-      "actionGroup": "Base on This Type"
+      ]
     },
     {
       "id": "Unwrap",

@@ -154,7 +154,8 @@
         {
           "firstKeystroke": "control T"
         }
-      ]
+      ],
+      "actionGroup": "Diff \u0026 Merge"
     },
     {
       "id": "GotoDeclaration",
@@ -370,6 +371,15 @@
       ]
     },
     {
+      "id": "Refactorings.QuickListPopupAction",
+      "description": "Refactor This...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "shift control R"
+        }
+      ]
+    },
+    {
       "id": "ReformatCode",
       "description": "Reformat Code",
       "shortcuts": [
@@ -453,8 +463,7 @@
           "firstKeystroke": "control E",
           "secondKeystroke": "H"
         }
-      ],
-      "actionGroup": "Base on This Type"
+      ]
     },
     {
       "id": "Unscramble",
@@ -507,8 +516,33 @@
         {
           "firstKeystroke": "alt meta H"
         }
+      ]
+    },
+    {
+      "id": "SearchEverywhere.NavigateToNextGroup",
+      "description": "Next group element",
+      "shortcuts": [
+        {
+          "firstKeystroke": "PAGE_DOWN"
+        },
+        {
+          "firstKeystroke": "meta DOWN"
+        }
       ],
-      "actionGroup": "Show Services Tree"
+      "actionGroup": "Search Everywhere"
+    },
+    {
+      "id": "SearchEverywhere.NavigateToPrevGroup",
+      "description": "Prev group element",
+      "shortcuts": [
+        {
+          "firstKeystroke": "PAGE_UP"
+        },
+        {
+          "firstKeystroke": "meta UP"
+        }
+      ],
+      "actionGroup": "Search Everywhere"
     }
   ]
 }

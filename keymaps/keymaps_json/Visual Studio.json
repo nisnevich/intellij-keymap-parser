@@ -208,8 +208,7 @@
         {
           "firstKeystroke": "control INSERT"
         }
-      ],
-      "actionGroup": "Copy Quick Doc"
+      ]
     },
     {
       "id": "GotoClass",
@@ -227,7 +226,8 @@
         {
           "firstKeystroke": "control COMMA"
         }
-      ]
+      ],
+      "actionGroup": "Diff \u0026 Merge"
     },
     {
       "id": "ParameterInfo",
@@ -242,6 +242,15 @@
       "id": "ExpressionTypeInfo",
       "description": "Type Info",
       "shortcuts": []
+    },
+    {
+      "id": "RunClass",
+      "description": "Run",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control F9"
+        }
+      ]
     },
     {
       "id": "FindNext",
@@ -490,8 +499,7 @@
         {
           "firstKeystroke": "alt H"
         }
-      ],
-      "actionGroup": "Base on This Type"
+      ]
     },
     {
       "id": "EditorCodeBlockStart",
@@ -527,8 +535,7 @@
         {
           "firstKeystroke": "control alt R"
         }
-      ],
-      "actionGroup": "Refresh"
+      ]
     },
     {
       "id": "ForceRefresh",
@@ -537,8 +544,7 @@
         {
           "firstKeystroke": "control alt shift R"
         }
-      ],
-      "actionGroup": "Force Refresh"
+      ]
     },
     {
       "id": "ExternalJavaDoc",
@@ -596,8 +602,7 @@
     {
       "id": "Rerun",
       "description": "Rerun",
-      "shortcuts": [],
-      "actionGroup": "Rerun"
+      "shortcuts": []
     }
   ]
 }

@@ -1,12 +1,12 @@
 {
-  "name": "Sublime Text",
+  "name": "Sublime Text (Mac OS X)",
   "actions": [
     {
       "id": "OpenFile",
       "description": "Open...",
       "shortcuts": [
         {
-          "firstKeystroke": "control o"
+          "firstKeystroke": "meta o"
         }
       ]
     },
@@ -20,7 +20,7 @@
       "description": "New...",
       "shortcuts": [
         {
-          "firstKeystroke": "control n"
+          "firstKeystroke": "meta n"
         }
       ]
     },
@@ -32,7 +32,8 @@
     {
       "id": "GotoChangedFile",
       "description": "Go To Changed File...",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Diff \u0026 Merge"
     },
     {
       "id": "GotoTest",
@@ -40,34 +41,31 @@
       "shortcuts": []
     },
     {
-      "id": "CloseContent",
-      "description": "Close",
-      "shortcuts": [
-        {
-          "firstKeystroke": "control F4"
-        },
-        {
-          "firstKeystroke": "control w"
-        }
-      ]
-    },
-    {
       "id": "EditorUnSelectWord",
       "description": "Shrink Selection",
       "shortcuts": []
+    },
+    {
+      "id": "QuickImplementations",
+      "description": "Quick Definition",
+      "shortcuts": [
+        {
+          "firstKeystroke": "alt SPACE"
+        }
+      ]
     },
     {
       "id": "MoveLineUp",
       "description": "Move Line Up",
       "shortcuts": [
         {
-          "firstKeystroke": "control shift UP"
+          "firstKeystroke": "meta control UP"
         }
       ]
     },
     {
-      "id": "MoveStatementUp",
-      "description": "Move Statement Up",
+      "id": "GotoRelated",
+      "description": "Related Symbol...",
       "shortcuts": []
     },
     {
@@ -75,14 +73,9 @@
       "description": "Move Line Down",
       "shortcuts": [
         {
-          "firstKeystroke": "control shift DOWN"
+          "firstKeystroke": "meta control DOWN"
         }
       ]
-    },
-    {
-      "id": "MoveStatementDown",
-      "description": "Move Statement Down",
-      "shortcuts": []
     },
     {
       "id": "EditorDeleteLine",
@@ -98,7 +91,7 @@
       "description": "Paste",
       "shortcuts": [
         {
-          "firstKeystroke": "control shift V"
+          "firstKeystroke": "meta shift V"
         }
       ]
     },
@@ -107,10 +100,7 @@
       "description": "Paste without Formatting",
       "shortcuts": [
         {
-          "firstKeystroke": "control V"
-        },
-        {
-          "firstKeystroke": "shift INSERT"
+          "firstKeystroke": "meta V"
         }
       ]
     },
@@ -119,68 +109,62 @@
       "description": "Paste from History...",
       "shortcuts": [
         {
-          "firstKeystroke": "control k",
-          "secondKeystroke": "control v"
+          "firstKeystroke": "meta k",
+          "secondKeystroke": "meta v"
         },
         {
-          "firstKeystroke": "control k",
+          "firstKeystroke": "meta k",
           "secondKeystroke": "v"
+        },
+        {
+          "firstKeystroke": "meta alt v"
         }
       ]
+    },
+    {
+      "id": "IntroduceVariable",
+      "description": "Introduce Variable...",
+      "shortcuts": []
     },
     {
       "id": "EditorIndentLineOrSelection",
       "description": "Indent Line or Selection",
       "shortcuts": [
         {
-          "firstKeystroke": "control CLOSE_BRACKET"
+          "firstKeystroke": "meta CLOSE_BRACKET"
         }
       ]
-    },
-    {
-      "id": "EditorCodeBlockEnd",
-      "description": "Move Caret to Code Block End",
-      "shortcuts": []
-    },
-    {
-      "id": "EditorCodeBlockEndWithSelection",
-      "description": "Move Caret to Code Block End with Selection",
-      "shortcuts": []
     },
     {
       "id": "EditorUnindentSelection",
       "description": "Unindent Line or Selection",
       "shortcuts": [
         {
-          "firstKeystroke": "control OPEN_BRACKET"
+          "firstKeystroke": "meta OPEN_BRACKET"
         }
       ]
-    },
-    {
-      "id": "EditorCodeBlockStart",
-      "description": "Move Caret to Code Block Start",
-      "shortcuts": []
-    },
-    {
-      "id": "EditorCodeBlockStartWithSelection",
-      "description": "Move Caret to Code Block Start with Selection",
-      "shortcuts": []
     },
     {
       "id": "EditorDuplicate",
       "description": "Duplicate Line or Selection",
       "shortcuts": [
         {
-          "firstKeystroke": "control shift d"
+          "firstKeystroke": "meta shift d"
         }
       ]
+    },
+    {
+      "id": "Diff.ShowSettingsPopup",
+      "description": "Show Diff Settings Popup...",
+      "shortcuts": [],
+      "actionGroup": "Diff \u0026 Merge"
     },
     {
       "id": "EditorJoinLines",
       "description": "Join Lines",
       "shortcuts": [
         {
-          "firstKeystroke": "control j"
+          "firstKeystroke": "meta j"
         }
       ]
     },
@@ -194,7 +178,7 @@
       "description": "Start New Line",
       "shortcuts": [
         {
-          "firstKeystroke": "control ENTER"
+          "firstKeystroke": "meta ENTER"
         }
       ]
     },
@@ -203,7 +187,7 @@
       "description": "Start New Line Before Current",
       "shortcuts": [
         {
-          "firstKeystroke": "control shift ENTER"
+          "firstKeystroke": "meta shift ENTER"
         }
       ]
     },
@@ -217,8 +201,8 @@
       "description": "Delete to Line End",
       "shortcuts": [
         {
-          "firstKeystroke": "control k",
-          "secondKeystroke": "control k"
+          "firstKeystroke": "meta k",
+          "secondKeystroke": "meta k"
         }
       ]
     },
@@ -227,18 +211,13 @@
       "description": "Delete to Line Start",
       "shortcuts": [
         {
-          "firstKeystroke": "control shift BACK_SPACE"
+          "firstKeystroke": "meta BACK_SPACE"
         },
         {
-          "firstKeystroke": "control k",
-          "secondKeystroke": "control BACK_SPACE"
+          "firstKeystroke": "meta k",
+          "secondKeystroke": "meta BACK_SPACE"
         }
       ]
-    },
-    {
-      "id": "JumpToLastChange",
-      "description": "Last Edit Location",
-      "shortcuts": []
     },
     {
       "id": "Vcs.UpdateProject",
@@ -250,12 +229,12 @@
       "description": "Expand All",
       "shortcuts": [
         {
-          "firstKeystroke": "control k",
-          "secondKeystroke": "control j"
+          "firstKeystroke": "meta k",
+          "secondKeystroke": "meta j"
         },
         {
-          "firstKeystroke": "control k",
-          "secondKeystroke": "control 0"
+          "firstKeystroke": "meta k",
+          "secondKeystroke": "meta 0"
         }
       ]
     },
@@ -264,8 +243,8 @@
       "description": "Collapse All",
       "shortcuts": [
         {
-          "firstKeystroke": "control k",
-          "secondKeystroke": "control 1"
+          "firstKeystroke": "meta k",
+          "secondKeystroke": "meta 1"
         }
       ]
     },
@@ -274,30 +253,40 @@
       "description": "Collapse",
       "shortcuts": [
         {
-          "firstKeystroke": "control shift OPEN_BRACKET"
+          "firstKeystroke": "meta alt OPEN_BRACKET"
         }
       ]
+    },
+    {
+      "id": "EditorCodeBlockStart",
+      "description": "Move Caret to Code Block Start",
+      "shortcuts": []
     },
     {
       "id": "ExpandRegion",
       "description": "Expand",
       "shortcuts": [
         {
-          "firstKeystroke": "control shift CLOSE_BRACKET"
+          "firstKeystroke": "meta alt CLOSE_BRACKET"
         }
       ]
+    },
+    {
+      "id": "EditorCodeBlockEnd",
+      "description": "Move Caret to Code Block End",
+      "shortcuts": []
     },
     {
       "id": "EditorToggleCase",
       "description": "Toggle Case",
       "shortcuts": [
         {
-          "firstKeystroke": "control k",
-          "secondKeystroke": "control u"
+          "firstKeystroke": "meta k",
+          "secondKeystroke": "meta u"
         },
         {
-          "firstKeystroke": "control k",
-          "secondKeystroke": "control l"
+          "firstKeystroke": "meta k",
+          "secondKeystroke": "meta l"
         }
       ]
     },
@@ -330,73 +319,79 @@
       "description": "Move Caret to Next Word in Different \"CamelHumps\" Mode",
       "shortcuts": [
         {
-          "firstKeystroke": "alt RIGHT"
+          "firstKeystroke": "control alt RIGHT"
         }
       ]
-    },
-    {
-      "id": "Diff.NextChange",
-      "description": "Compare Next File",
-      "shortcuts": []
     },
     {
       "id": "EditorPreviousWordInDifferentHumpsMode",
       "description": "Move Caret to Previous Word in Different \"CamelHumps\" Mode",
       "shortcuts": [
         {
-          "firstKeystroke": "alt LEFT"
+          "firstKeystroke": "control alt LEFT"
         }
       ]
-    },
-    {
-      "id": "Diff.PrevChange",
-      "description": "Compare Previous File",
-      "shortcuts": []
-    },
-    {
-      "id": "Diff.ApplyLeftSide",
-      "description": "Accept Left Side",
-      "shortcuts": []
-    },
-    {
-      "id": "Diff.ApplyRightSide",
-      "description": "Accept Right Side",
-      "shortcuts": []
     },
     {
       "id": "EditorNextWordInDifferentHumpsModeWithSelection",
       "description": "Move Caret to Next Word with Selection in Different \"CamelHumps\" Mode",
       "shortcuts": [
         {
-          "firstKeystroke": "alt shift RIGHT"
+          "firstKeystroke": "control alt shift RIGHT"
         }
       ]
-    },
-    {
-      "id": "NextEditorTab",
-      "description": "Select Next Tab in multi-editor file",
-      "shortcuts": []
     },
     {
       "id": "EditorPreviousWordInDifferentHumpsModeWithSelection",
       "description": "Move Caret to Previous Word with Selection in Different \"CamelHumps\" Mode",
       "shortcuts": [
         {
-          "firstKeystroke": "alt shift LEFT"
+          "firstKeystroke": "control alt shift LEFT"
         }
       ]
     },
     {
-      "id": "PreviousEditorTab",
-      "description": "Select Previous Tab in multi-editor file",
-      "shortcuts": []
+      "id": "EditorDeleteToWordStartInDifferentHumpsMode",
+      "description": "Delete to Word Start in Different \"CamelHumps\" Mode",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control BACK_SPACE"
+        }
+      ]
+    },
+    {
+      "id": "EditorDeleteToWordEndInDifferentHumpsMode",
+      "description": "Delete to Word End in Different \"CamelHumps\" Mode",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control DELETE"
+        }
+      ]
     },
     {
       "id": "FillParagraph",
       "description": "Fill Paragraph",
       "shortcuts": [
         {
-          "firstKeystroke": "alt q"
+          "firstKeystroke": "meta alt q"
+        }
+      ]
+    },
+    {
+      "id": "EditorToggleInsertState",
+      "description": "Toggle Insert/Overwrite",
+      "shortcuts": [
+        {
+          "firstKeystroke": "meta alt o"
+        }
+      ]
+    },
+    {
+      "id": "ShowPopupMenu",
+      "description": "Show Context Menu",
+      "shortcuts": [
+        {
+          "firstKeystroke": "alt f2"
         }
       ]
     },
@@ -405,16 +400,16 @@
       "description": "Extend Selection",
       "shortcuts": [
         {
-          "firstKeystroke": "control shift SPACE"
+          "firstKeystroke": "meta l"
         },
         {
-          "firstKeystroke": "control l"
+          "firstKeystroke": "meta shift a"
         },
         {
-          "firstKeystroke": "control shift a"
+          "firstKeystroke": "meta shift j"
         },
         {
-          "firstKeystroke": "control shift j"
+          "firstKeystroke": "meta shift space"
         },
         {
           "firstKeystroke": "control shift m"
@@ -431,16 +426,7 @@
       "description": "Add Selection for Next Occurrence",
       "shortcuts": [
         {
-          "firstKeystroke": "control d"
-        }
-      ]
-    },
-    {
-      "id": "Find",
-      "description": "Find...",
-      "shortcuts": [
-        {
-          "firstKeystroke": "control f"
+          "firstKeystroke": "meta d"
         }
       ]
     },
@@ -449,11 +435,11 @@
       "description": "Find Next / Move to Next Occurrence",
       "shortcuts": [
         {
-          "firstKeystroke": "f3"
+          "firstKeystroke": "meta g"
         },
         {
-          "firstKeystroke": "control k",
-          "secondKeystroke": "control d"
+          "firstKeystroke": "meta k",
+          "secondKeystroke": "meta d"
         }
       ]
     },
@@ -462,7 +448,7 @@
       "description": "Find Previous / Move to Previous Occurrence",
       "shortcuts": [
         {
-          "firstKeystroke": "shift f3"
+          "firstKeystroke": "meta shift g"
         }
       ]
     },
@@ -471,7 +457,7 @@
       "description": "Incremental Search",
       "shortcuts": [
         {
-          "firstKeystroke": "control i"
+          "firstKeystroke": "meta i"
         }
       ]
     },
@@ -485,37 +471,31 @@
       "description": "Replace...",
       "shortcuts": [
         {
-          "firstKeystroke": "control h"
+          "firstKeystroke": "meta alt f"
         }
       ]
+    },
+    {
+      "id": "IntroduceField",
+      "description": "Introduce Field...",
+      "shortcuts": []
     },
     {
       "id": "TypeHierarchy",
       "description": "Type Hierarchy",
-      "shortcuts": [],
-      "actionGroup": "Base on This Type"
+      "shortcuts": []
     },
     {
       "id": "MethodHierarchy",
       "description": "Method Hierarchy",
-      "shortcuts": [],
-      "actionGroup": "Base on This Method"
+      "shortcuts": []
     },
     {
-      "id": "SelectAllOccurrences",
-      "description": "Select All Occurrences",
+      "id": "FindWordAtCaret",
+      "description": "Find Word at Caret",
       "shortcuts": [
         {
-          "firstKeystroke": "alt f3"
-        }
-      ]
-    },
-    {
-      "id": "ToggleFullScreen",
-      "description": "Toggle Full Screen mode",
-      "shortcuts": [
-        {
-          "firstKeystroke": "f11"
+          "firstKeystroke": "meta alt g"
         }
       ]
     },
@@ -524,7 +504,7 @@
       "description": "Toggle Distraction Free mode",
       "shortcuts": [
         {
-          "firstKeystroke": "shift f11"
+          "firstKeystroke": "meta ctrl shift f"
         }
       ]
     },
@@ -553,10 +533,10 @@
       "description": "Increase Font Size",
       "shortcuts": [
         {
-          "firstKeystroke": "control ADD"
+          "firstKeystroke": "meta ADD"
         },
         {
-          "firstKeystroke": "control EQUALS"
+          "firstKeystroke": "meta EQUALS"
         }
       ]
     },
@@ -565,16 +545,10 @@
       "description": "Decrease Font Size",
       "shortcuts": [
         {
-          "firstKeystroke": "control SUBTRACT"
+          "firstKeystroke": "meta SUBTRACT"
         },
         {
-          "firstKeystroke": "control MINUS"
-        },
-        {
-          "firstKeystroke": "control shift ADD"
-        },
-        {
-          "firstKeystroke": "control shift EQUALS"
+          "firstKeystroke": "meta MINUS"
         }
       ]
     },
@@ -583,7 +557,10 @@
       "description": "File...",
       "shortcuts": [
         {
-          "firstKeystroke": "control p"
+          "firstKeystroke": "meta p"
+        },
+        {
+          "firstKeystroke": "meta t"
         }
       ]
     },
@@ -597,7 +574,7 @@
       "description": "File Structure",
       "shortcuts": [
         {
-          "firstKeystroke": "control r"
+          "firstKeystroke": "meta r"
         }
       ]
     },
@@ -606,7 +583,7 @@
       "description": "Symbol...",
       "shortcuts": [
         {
-          "firstKeystroke": "control shift r"
+          "firstKeystroke": "meta shift r"
         }
       ]
     },
@@ -621,6 +598,9 @@
       "shortcuts": [
         {
           "firstKeystroke": "f12"
+        },
+        {
+          "firstKeystroke": "meta alt DOWN"
         }
       ]
     },
@@ -635,6 +615,9 @@
       "shortcuts": [
         {
           "firstKeystroke": "shift f12"
+        },
+        {
+          "firstKeystroke": "meta alt shift DOWN"
         }
       ]
     },
@@ -648,10 +631,10 @@
       "description": "Back",
       "shortcuts": [
         {
-          "firstKeystroke": "alt SUBTRACT"
+          "firstKeystroke": "control SUBTRACT"
         },
         {
-          "firstKeystroke": "alt MINUS"
+          "firstKeystroke": "control MINUS"
         }
       ]
     },
@@ -660,39 +643,22 @@
       "description": "Forward",
       "shortcuts": [
         {
-          "firstKeystroke": "alt shift SUBTRACT"
+          "firstKeystroke": "control shift SUBTRACT"
         },
         {
-          "firstKeystroke": "alt shift MINUS"
+          "firstKeystroke": "control shift MINUS"
         }
       ]
-    },
-    {
-      "id": "EditorMatchBrace",
-      "description": "Move Caret to Matching Brace",
-      "shortcuts": [
-        {
-          "firstKeystroke": "control M"
-        }
-      ]
-    },
-    {
-      "id": "EditorScrollToCenter",
-      "description": "Scroll to Center",
-      "shortcuts": [
-        {
-          "firstKeystroke": "control k",
-          "secondKeystroke": "control c"
-        }
-      ],
-      "actionGroup": "Scroll to Center"
     },
     {
       "id": "ToggleBookmark",
       "description": "Toggle Bookmark",
       "shortcuts": [
         {
-          "firstKeystroke": "control f2"
+          "firstKeystroke": "meta f2"
+        },
+        {
+          "firstKeystroke": "control shift r"
         }
       ]
     },
@@ -702,11 +668,19 @@
       "shortcuts": []
     },
     {
+      "id": "RunClass",
+      "description": "Run",
+      "shortcuts": []
+    },
+    {
       "id": "GotoNextBookmark",
       "description": "Next Bookmark",
       "shortcuts": [
         {
           "firstKeystroke": "f2"
+        },
+        {
+          "firstKeystroke": "control r"
         }
       ]
     },
@@ -735,17 +709,95 @@
       "shortcuts": []
     },
     {
-      "id": "NextTab",
-      "description": "Select Next Tab",
+      "id": "GotoLine",
+      "description": "Line/Column...",
       "shortcuts": [
         {
-          "firstKeystroke": "control PAGE_DOWN"
+          "firstKeystroke": "control g"
         }
       ]
     },
     {
-      "id": "EditorMoveToPageBottom",
-      "description": "Move Caret to Page Bottom",
+      "id": "EditorPageDown",
+      "description": "Page Down",
+      "shortcuts": [
+        {
+          "firstKeystroke": "PAGE_DOWN"
+        },
+        {
+          "firstKeystroke": "control v"
+        }
+      ],
+      "actionGroup": "Tree Actions"
+    },
+    {
+      "id": "EditorScrollToCenter",
+      "description": "Scroll to Center",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control l"
+        },
+        {
+          "firstKeystroke": "meta k",
+          "secondKeystroke": "meta c"
+        }
+      ]
+    },
+    {
+      "id": "EditorTextStart",
+      "description": "Move Caret to Text Start",
+      "shortcuts": [
+        {
+          "firstKeystroke": "meta UP"
+        }
+      ],
+      "actionGroup": "Tree Actions"
+    },
+    {
+      "id": "ShowNavBar",
+      "description": "Jump to Navigation Bar",
+      "shortcuts": [
+        {
+          "firstKeystroke": "alt HOME"
+        }
+      ]
+    },
+    {
+      "id": "EditorTextEnd",
+      "description": "Move Caret to Text End",
+      "shortcuts": [
+        {
+          "firstKeystroke": "meta DOWN"
+        }
+      ],
+      "actionGroup": "Tree Actions"
+    },
+    {
+      "id": "EditorScrollUp",
+      "description": "Scroll Up",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control alt UP"
+        }
+      ]
+    },
+    {
+      "id": "GotoPrevElementUnderCaretUsage",
+      "description": "Go to previous highlighted element usage",
+      "shortcuts": []
+    },
+    {
+      "id": "EditorScrollDown",
+      "description": "Scroll Down",
+      "shortcuts": [
+        {
+          "firstKeystroke": "control alt DOWN"
+        }
+      ]
+    },
+    {
+      "id": "GotoNextElementUnderCaretUsage",
+      "description": "Go to next highlighted element usage",
       "shortcuts": []
     },
     {
@@ -753,35 +805,46 @@
       "description": "Select Previous Tab",
       "shortcuts": [
         {
+          "firstKeystroke": "meta shift OPEN_BRACKET"
+        },
+        {
+          "firstKeystroke": "meta alt LEFT"
+        },
+        {
           "firstKeystroke": "control PAGE_UP"
         }
       ]
     },
     {
-      "id": "EditorMoveToPageTop",
-      "description": "Move Caret to Page Top",
-      "shortcuts": []
+      "id": "NextTab",
+      "description": "Select Next Tab",
+      "shortcuts": [
+        {
+          "firstKeystroke": "meta shift CLOSE_BRACKET"
+        },
+        {
+          "firstKeystroke": "meta alt RIGHT"
+        },
+        {
+          "firstKeystroke": "control PAGE_DOWN"
+        }
+      ]
     },
     {
       "id": "GotoAction",
       "description": "Find Action...",
       "shortcuts": [
         {
-          "firstKeystroke": "shift control p"
+          "firstKeystroke": "shift meta p"
         }
       ]
-    },
-    {
-      "id": "ExpressionTypeInfo",
-      "description": "Type Info",
-      "shortcuts": []
     },
     {
       "id": "Compile",
       "description": "Rebuild",
       "shortcuts": [
         {
-          "firstKeystroke": "control b"
+          "firstKeystroke": "meta b"
         }
       ]
     },
@@ -823,21 +886,30 @@
       "description": "Clone Caret Above",
       "shortcuts": [
         {
-          "firstKeystroke": "control alt UP"
+          "firstKeystroke": "control shift UP"
         }
       ]
-    },
-    {
-      "id": "PreviousOccurence",
-      "description": "Previous Occurrence",
-      "shortcuts": []
     },
     {
       "id": "EditorCloneCaretBelow",
       "description": "Clone Caret Below",
       "shortcuts": [
         {
-          "firstKeystroke": "control alt DOWN"
+          "firstKeystroke": "control shift DOWN"
+        }
+      ]
+    },
+    {
+      "id": "EditorAddRectangularSelectionOnMouseDrag",
+      "description": "Add Rectangular Selection on Mouse Drag",
+      "shortcuts": []
+    },
+    {
+      "id": "GotoImplementation",
+      "description": "Implementation(s)",
+      "shortcuts": [
+        {
+          "firstKeystroke": "meta alt B"
         }
       ]
     },
@@ -847,8 +919,29 @@
       "shortcuts": []
     },
     {
-      "id": "EditorAddRectangularSelectionOnMouseDrag",
-      "description": "Add Rectangular Selection on Mouse Drag",
+      "id": "PreviousOccurence",
+      "description": "Previous Occurrence",
+      "shortcuts": []
+    },
+    {
+      "id": "EditSource",
+      "description": "Jump to Source",
+      "shortcuts": [],
+      "actionGroup": "Navigation Bar Actions"
+    },
+    {
+      "id": "EditSourceInNewWindow",
+      "description": "Open source in new window",
+      "shortcuts": []
+    },
+    {
+      "id": "Debugger.EditTypeSource",
+      "description": "Jump to Object Source",
+      "shortcuts": []
+    },
+    {
+      "id": "CopyElement",
+      "description": "Copy...",
       "shortcuts": []
     },
     {

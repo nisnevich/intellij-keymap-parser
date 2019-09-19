@@ -134,7 +134,7 @@
           "firstKeystroke": "F3"
         }
       ],
-      "actionGroup": "Edit Source"
+      "actionGroup": "Navigation Bar Actions"
     },
     {
       "id": "EditorCodeBlockEnd",
@@ -427,7 +427,8 @@
         {
           "firstKeystroke": "shift meta T"
         }
-      ]
+      ],
+      "actionGroup": "Diff \u0026 Merge"
     },
     {
       "id": "GotoDeclaration",
@@ -622,7 +623,8 @@
         {
           "firstKeystroke": "control F7"
         }
-      ]
+      ],
+      "actionGroup": "Diff \u0026 Merge"
     },
     {
       "id": "Diff.PrevChange",
@@ -634,7 +636,8 @@
         {
           "firstKeystroke": "meta alt LEFT"
         }
-      ]
+      ],
+      "actionGroup": "Diff \u0026 Merge"
     },
     {
       "id": "Diff.NextChange",
@@ -646,7 +649,8 @@
         {
           "firstKeystroke": "meta alt RIGHT"
         }
-      ]
+      ],
+      "actionGroup": "Diff \u0026 Merge"
     },
     {
       "id": "NextOccurence",
@@ -668,7 +672,8 @@
     {
       "id": "NextEditorTab",
       "description": "Select Next Tab in multi-editor file",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Tabs"
     },
     {
       "id": "OptimizeImports",
@@ -718,7 +723,8 @@
     {
       "id": "PreviousEditorTab",
       "description": "Select Previous Tab in multi-editor file",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Tabs"
     },
     {
       "id": "Print",
@@ -755,14 +761,12 @@
     {
       "id": "Refresh",
       "description": "Refresh",
-      "shortcuts": [],
-      "actionGroup": "Refresh"
+      "shortcuts": []
     },
     {
       "id": "ForceRefresh",
       "description": "Force Refresh",
-      "shortcuts": [],
-      "actionGroup": "Force Refresh"
+      "shortcuts": []
     },
     {
       "id": "Unwrap",
@@ -782,8 +786,7 @@
     {
       "id": "Rerun",
       "description": "Rerun",
-      "shortcuts": [],
-      "actionGroup": "Rerun"
+      "shortcuts": []
     },
     {
       "id": "Resume",
@@ -929,8 +932,7 @@
         {
           "firstKeystroke": "F4"
         }
-      ],
-      "actionGroup": "Base on This Type"
+      ]
     },
     {
       "id": "Vcs.UpdateProject",
@@ -1060,8 +1062,33 @@
         {
           "firstKeystroke": "alt meta H"
         }
+      ]
+    },
+    {
+      "id": "SearchEverywhere.NavigateToNextGroup",
+      "description": "Next group element",
+      "shortcuts": [
+        {
+          "firstKeystroke": "PAGE_DOWN"
+        },
+        {
+          "firstKeystroke": "meta DOWN"
+        }
       ],
-      "actionGroup": "Show Services Tree"
+      "actionGroup": "Search Everywhere"
+    },
+    {
+      "id": "SearchEverywhere.NavigateToPrevGroup",
+      "description": "Prev group element",
+      "shortcuts": [
+        {
+          "firstKeystroke": "PAGE_UP"
+        },
+        {
+          "firstKeystroke": "meta UP"
+        }
+      ],
+      "actionGroup": "Search Everywhere"
     }
   ]
 }

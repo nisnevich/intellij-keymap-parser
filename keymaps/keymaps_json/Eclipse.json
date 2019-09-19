@@ -146,7 +146,7 @@
           "firstKeystroke": "shift control E"
         }
       ],
-      "actionGroup": "Edit Source"
+      "actionGroup": "Navigation Bar Actions"
     },
     {
       "id": "EditorCodeBlockEnd",
@@ -491,7 +491,8 @@
         {
           "firstKeystroke": "shift control T"
         }
-      ]
+      ],
+      "actionGroup": "Diff \u0026 Merge"
     },
     {
       "id": "GotoDeclaration",
@@ -692,7 +693,8 @@
         {
           "firstKeystroke": "control F7"
         }
-      ]
+      ],
+      "actionGroup": "Diff \u0026 Merge"
     },
     {
       "id": "Diff.PrevChange",
@@ -707,7 +709,8 @@
         {
           "firstKeystroke": "control PAGE_UP"
         }
-      ]
+      ],
+      "actionGroup": "Diff \u0026 Merge"
     },
     {
       "id": "Diff.NextChange",
@@ -722,17 +725,20 @@
         {
           "firstKeystroke": "control PAGE_DOWN"
         }
-      ]
+      ],
+      "actionGroup": "Diff \u0026 Merge"
     },
     {
       "id": "Diff.ApplyLeftSide",
       "description": "Accept Left Side",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Diff \u0026 Merge"
     },
     {
       "id": "Diff.ApplyRightSide",
       "description": "Accept Right Side",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Diff \u0026 Merge"
     },
     {
       "id": "NextOccurence",
@@ -761,7 +767,8 @@
         {
           "firstKeystroke": "control shift alt LEFT"
         }
-      ]
+      ],
+      "actionGroup": "Tabs"
     },
     {
       "id": "OptimizeImports",
@@ -817,7 +824,8 @@
         {
           "firstKeystroke": "control alt shift RIGHT"
         }
-      ]
+      ],
+      "actionGroup": "Tabs"
     },
     {
       "id": "Print",
@@ -860,14 +868,12 @@
     {
       "id": "Refresh",
       "description": "Refresh",
-      "shortcuts": [],
-      "actionGroup": "Refresh"
+      "shortcuts": []
     },
     {
       "id": "ForceRefresh",
       "description": "Force Refresh",
-      "shortcuts": [],
-      "actionGroup": "Force Refresh"
+      "shortcuts": []
     },
     {
       "id": "Unwrap",
@@ -908,8 +914,7 @@
         {
           "firstKeystroke": "control F11"
         }
-      ],
-      "actionGroup": "Rerun"
+      ]
     },
     {
       "id": "RerunTests",
@@ -918,8 +923,7 @@
         {
           "firstKeystroke": "shift alt G"
         }
-      ],
-      "actionGroup": "Rerun Tests"
+      ]
     },
     {
       "id": "Resume",
@@ -1073,8 +1077,7 @@
         {
           "firstKeystroke": "F4"
         }
-      ],
-      "actionGroup": "Base on This Type"
+      ]
     },
     {
       "id": "Vcs.UpdateProject",
@@ -1134,8 +1137,7 @@
         {
           "firstKeystroke": "shift alt H"
         }
-      ],
-      "actionGroup": "Show Services Tree"
+      ]
     },
     {
       "id": "Vcs.MoveChangedLinesToChangelist",

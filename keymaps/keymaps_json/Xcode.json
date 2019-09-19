@@ -307,7 +307,8 @@
         {
           "firstKeystroke": "meta RIGHT"
         }
-      ]
+      ],
+      "actionGroup": "Navigation Bar Actions"
     },
     {
       "id": "EditorLineEndWithSelection",
@@ -325,7 +326,8 @@
         {
           "firstKeystroke": "meta LEFT"
         }
-      ]
+      ],
+      "actionGroup": "Navigation Bar Actions"
     },
     {
       "id": "EditorLineStartWithSelection",
@@ -373,7 +375,8 @@
         {
           "firstKeystroke": "control V"
         }
-      ]
+      ],
+      "actionGroup": "Tree Actions"
     },
     {
       "id": "EditorPageDownWithSelection",
@@ -385,7 +388,8 @@
         {
           "firstKeystroke": "control shift V"
         }
-      ]
+      ],
+      "actionGroup": "Tree Actions"
     },
     {
       "id": "EditorPageUp",
@@ -397,7 +401,8 @@
         {
           "firstKeystroke": "alt PAGE_UP"
         }
-      ]
+      ],
+      "actionGroup": "Tree Actions"
     },
     {
       "id": "EditorPreviousWordInDifferentHumpsMode",
@@ -439,8 +444,7 @@
         {
           "firstKeystroke": "control L"
         }
-      ],
-      "actionGroup": "Scroll to Center"
+      ]
     },
     {
       "id": "EditorScrollTop",
@@ -473,7 +477,8 @@
         {
           "firstKeystroke": "meta END"
         }
-      ]
+      ],
+      "actionGroup": "Tree Actions"
     },
     {
       "id": "EditorTextEndWithSelection",
@@ -488,7 +493,8 @@
         {
           "firstKeystroke": "shift END"
         }
-      ]
+      ],
+      "actionGroup": "Tree Actions"
     },
     {
       "id": "EditorTextStart",
@@ -500,7 +506,8 @@
         {
           "firstKeystroke": "meta HOME"
         }
-      ]
+      ],
+      "actionGroup": "Tree Actions"
     },
     {
       "id": "EditorTextStartWithSelection",
@@ -515,7 +522,8 @@
         {
           "firstKeystroke": "shift HOME"
         }
-      ]
+      ],
+      "actionGroup": "Tree Actions"
     },
     {
       "id": "editRunConfigurations",
@@ -712,8 +720,7 @@
         {
           "firstKeystroke": "shift ctrl meta H"
         }
-      ],
-      "actionGroup": "Base on This Method"
+      ]
     },
     {
       "id": "FindInPath",
@@ -849,12 +856,22 @@
     {
       "id": "NextEditorTab",
       "description": "Select Next Tab in multi-editor file",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Tabs"
     },
     {
       "id": "NextProjectWindow",
       "description": "Next Project Window",
       "shortcuts": []
+    },
+    {
+      "id": "Refactorings.QuickListPopupAction",
+      "description": "Refactor This...",
+      "shortcuts": [
+        {
+          "firstKeystroke": "ctrl meta alt T"
+        }
+      ]
     },
     {
       "id": "IntroduceParameter",
@@ -927,7 +944,8 @@
     {
       "id": "PreviousEditorTab",
       "description": "Select Previous Tab in multi-editor file",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Tabs"
     },
     {
       "id": "PreviousProjectWindow",
@@ -1034,8 +1052,7 @@
         {
           "firstKeystroke": "control alt meta G"
         }
-      ],
-      "actionGroup": "Rerun"
+      ]
     },
     {
       "id": "RerunFailedTests",
@@ -1047,14 +1064,31 @@
       ]
     },
     {
+      "id": "RunClass",
+      "description": "Run",
+      "shortcuts": [
+        {
+          "firstKeystroke": "meta alt U"
+        }
+      ]
+    },
+    {
+      "id": "DebugClass",
+      "description": "Debug",
+      "shortcuts": [
+        {
+          "firstKeystroke": "meta U"
+        }
+      ]
+    },
+    {
       "id": "ChooseRunConfiguration",
       "description": "Run...",
       "shortcuts": [
         {
           "firstKeystroke": "shift ctrl meta alt R"
         }
-      ],
-      "actionGroup": "Run..."
+      ]
     },
     {
       "id": "ChooseDebugConfiguration",
@@ -1063,8 +1097,7 @@
         {
           "firstKeystroke": "meta alt R"
         }
-      ],
-      "actionGroup": "Debug..."
+      ]
     },
     {
       "id": "Pause",
@@ -1278,7 +1311,8 @@
         {
           "firstKeystroke": "meta shift OPEN_BRACKET"
         }
-      ]
+      ],
+      "actionGroup": "Diff \u0026 Merge"
     },
     {
       "id": "Diff.NextChange",
@@ -1287,17 +1321,20 @@
         {
           "firstKeystroke": "meta shift CLOSE_BRACKET"
         }
-      ]
+      ],
+      "actionGroup": "Diff \u0026 Merge"
     },
     {
       "id": "Diff.ApplyLeftSide",
       "description": "Accept Left Side",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Diff \u0026 Merge"
     },
     {
       "id": "Diff.ApplyRightSide",
       "description": "Accept Right Side",
-      "shortcuts": []
+      "shortcuts": [],
+      "actionGroup": "Diff \u0026 Merge"
     },
     {
       "id": "Back",
@@ -1327,7 +1364,8 @@
         {
           "firstKeystroke": "shift DOWN"
         }
-      ]
+      ],
+      "actionGroup": "Tree Actions"
     },
     {
       "id": "EditorLeftWithSelection",
@@ -1339,7 +1377,8 @@
         {
           "firstKeystroke": "shift control B"
         }
-      ]
+      ],
+      "actionGroup": "Tree Actions"
     },
     {
       "id": "EditorLineEnd",
@@ -1351,7 +1390,8 @@
         {
           "firstKeystroke": "control E"
         }
-      ]
+      ],
+      "actionGroup": "Navigation Bar Actions"
     },
     {
       "id": "EditorLineStart",
@@ -1363,7 +1403,8 @@
         {
           "firstKeystroke": "control A"
         }
-      ]
+      ],
+      "actionGroup": "Navigation Bar Actions"
     },
     {
       "id": "EditorRightWithSelection",
@@ -1375,7 +1416,8 @@
         {
           "firstKeystroke": "shift control F"
         }
-      ]
+      ],
+      "actionGroup": "Tree Actions"
     },
     {
       "id": "EditorUpWithSelection",
@@ -1387,7 +1429,8 @@
         {
           "firstKeystroke": "shift UP"
         }
-      ]
+      ],
+      "actionGroup": "Tree Actions"
     },
     {
       "id": "NewScratchFile",
@@ -1464,7 +1507,8 @@
         {
           "firstKeystroke": "control alt 0"
         }
-      ]
+      ],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "GotoBookmark1",
@@ -1473,7 +1517,8 @@
         {
           "firstKeystroke": "control alt 1"
         }
-      ]
+      ],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "GotoBookmark2",
@@ -1482,7 +1527,8 @@
         {
           "firstKeystroke": "control alt 2"
         }
-      ]
+      ],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "GotoBookmark3",
@@ -1491,7 +1537,8 @@
         {
           "firstKeystroke": "control alt 3"
         }
-      ]
+      ],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "GotoBookmark4",
@@ -1500,7 +1547,8 @@
         {
           "firstKeystroke": "control alt 4"
         }
-      ]
+      ],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "GotoBookmark5",
@@ -1509,7 +1557,8 @@
         {
           "firstKeystroke": "control alt 5"
         }
-      ]
+      ],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "GotoBookmark6",
@@ -1518,7 +1567,8 @@
         {
           "firstKeystroke": "control alt 6"
         }
-      ]
+      ],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "GotoBookmark7",
@@ -1527,7 +1577,8 @@
         {
           "firstKeystroke": "control alt 7"
         }
-      ]
+      ],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "GotoBookmark8",
@@ -1536,7 +1587,8 @@
         {
           "firstKeystroke": "control alt 8"
         }
-      ]
+      ],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "GotoBookmark9",
@@ -1545,7 +1597,8 @@
         {
           "firstKeystroke": "control alt 9"
         }
-      ]
+      ],
+      "actionGroup": "Bookmarks"
     },
     {
       "id": "ChangesView.Rename",

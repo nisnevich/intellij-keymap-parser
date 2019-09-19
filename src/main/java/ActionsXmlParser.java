@@ -110,13 +110,16 @@ public class ActionsXmlParser {
             for (Action action : actionsList) {
                 action.setDescription(action.getDescription().replaceAll("_", ""));
                 action.setId(action.getId().replaceAll("\\$", ""));
+                if (action.getActionGroup() != null) {
+                    action.setActionGroup(action.getActionGroup().replaceAll("\\\\&\\\\&", "&"));
+                }
             }
         }
 
         keymap.setActions(actionsList);
         try {
             logger.info(String.format("Total matches for %s: %d of %d", keymap.getName(), actionsList.size(), actionsCount));
-            FileWriter fileWriter = new FileWriter("keymaps/json-keymaps/" + keymap.getName() + ".json");
+            FileWriter fileWriter = new FileWriter("keymaps/keymaps_json/" + keymap.getName() + ".json");
             gson.toJson(keymap, fileWriter);
             fileWriter.flush();
         } catch (IOException e) {
@@ -145,14 +148,14 @@ public class ActionsXmlParser {
                     }
                     logger.trace("Group name is missing for action " + action.getId());
                 } else if (node.getNodeName().equals(GROUP)) {
-                    for (Node actionNode : XmlUtil.asList(actionsNode.getChildNodes())) {
+                    for (Node actionNode : XmlUtil.asList(node.getChildNodes())) {
                         if (isNodeTextOrComment(actionNode)) continue;
                         if (hasAttr(actionNode, ID) && getAttr(actionNode, ID).equals(action.getId())) {
                             setHumanReadableName(action, actionNode, "Description", Action::setDescription);
-                            setHumanReadableName(action, actionNode, "Group name", Action::setActionGroup);
+                            setHumanReadableName(action, node, "Group name", Action::setActionGroup);
                         } else if (hasAttr(actionNode, USE_SHORTCUT_OF) && getAttr(actionNode, USE_SHORTCUT_OF).equals(action.getId())) {
                             setHumanReadableName(action, actionNode, "Description", Action::setDescription);
-                            setHumanReadableName(action, actionNode, "Group name", Action::setActionGroup);
+                            setHumanReadableName(action, node, "Group name", Action::setActionGroup);
                         }
                     }
                 } else if (node.getNodeName().equals("reference")) {
